@@ -8,7 +8,7 @@ public class scriptTimer : MonoBehaviour {
 	public Text contador;
 	public Text fin;
 	////private float tiempo;
-	private float tiempo=60f;
+	private float tiempo=10f;
 
 	// Use this for initialization
 	void Start () {
