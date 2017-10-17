@@ -1387,7 +1387,8 @@ Prefab:
       propertyPath: m_Name
       value: Agua 2x2 (3)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 61022107175212126, guid: 6120175e5422e1149b1426aec0a1fab5, type: 2}
   m_ParentPrefab: {fileID: 100100000, guid: 6120175e5422e1149b1426aec0a1fab5, type: 2}
   m_IsPrefabParent: 0
 --- !u!1 &500211932
@@ -3517,7 +3518,8 @@ Prefab:
       propertyPath: m_Name
       value: Agua 2x2 (1)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 61022107175212126, guid: 6120175e5422e1149b1426aec0a1fab5, type: 2}
   m_ParentPrefab: {fileID: 100100000, guid: 6120175e5422e1149b1426aec0a1fab5, type: 2}
   m_IsPrefabParent: 0
 --- !u!1 &1577030077
@@ -3843,7 +3845,8 @@ Prefab:
       propertyPath: m_RootOrder
       value: 6
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 61022107175212126, guid: 6120175e5422e1149b1426aec0a1fab5, type: 2}
   m_ParentPrefab: {fileID: 100100000, guid: 6120175e5422e1149b1426aec0a1fab5, type: 2}
   m_IsPrefabParent: 0
 --- !u!1 &1690246871
@@ -4165,7 +4168,8 @@ Prefab:
       propertyPath: m_Name
       value: Agua 2x2 (2)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 61022107175212126, guid: 6120175e5422e1149b1426aec0a1fab5, type: 2}
   m_ParentPrefab: {fileID: 100100000, guid: 6120175e5422e1149b1426aec0a1fab5, type: 2}
   m_IsPrefabParent: 0
 --- !u!1 &1799275643
