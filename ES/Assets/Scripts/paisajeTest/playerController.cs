@@ -8,7 +8,7 @@ public class playerController : MonoBehaviour {
     //public float speed = 5f;
 
     private Rigidbody2D Body;
-    public float maxSpeed = 10f;
+    public float maxSpeed = 20f;
 
     //Variables para el salto
     public bool touchFloor; //Nos indicará si el player esta tocando el suelo
@@ -30,6 +30,14 @@ public class playerController : MonoBehaviour {
 
         touchFloor = Physics2D.OverlapCircle(foot.position, radio, floor);
 
+        //Para que el personaje gire
+        if(Direction > 0){
+          transform.localScale = new Vector3(1,1,1);
+        }else if(Direction < 0){
+          transform.localScale = new Vector3(-1,1,1);
+        }
+
+        //Cuando toque el suelo
         if(touchFloor){
             if(Input.GetKeyDown (KeyCode.Space)){
                 Body.AddForce(new Vector2(0,maxJump * 10));
