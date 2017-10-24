@@ -1,6 +1,7 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+
 
 public class playerController : MonoBehaviour {
 
@@ -9,27 +10,34 @@ public class playerController : MonoBehaviour {
     private Rigidbody2D Body;
     public float maxSpeed = 10f;
 
-    //public bool tocaSuelo;
-    //public float radio = 0.8f;
-    //public LayerMask suelo;
-    //public Transform pie;
-
+    //Variables para el salto
+    public bool touchFloor; //Nos indicará si el player esta tocando el suelo
+    public float radio = 0.8f;
+    public LayerMask floor;
+    public Transform foot;
+    public float maxJump = 40f;//fuerza de salto
 
 	// Use this for initialization
 	void Start () {
         Body = GetComponent<Rigidbody2D>();
 	}
-	
+
 	// Update is called once per frame
 	void Update () {
 
         float Direction = Input.GetAxis("Horizontal");
-        Body.velocity = new Vector3(Direction * maxSpeed, transform.position.y, transform.position.z);
+        Body.velocity = new Vector2(Direction * maxSpeed, Body.velocity.y);
 
-        //tocaSuelo = Physics2D.OverlapCircle(pie.position, radio, suelo);
+        touchFloor = Physics2D.OverlapCircle(foot.position, radio, floor);
 
+        if(touchFloor){
+            if(Input.GetKeyDown (KeyCode.Space)){
+                Body.AddForce(new Vector2(0,maxJump * 10));
+          }
+        }
 
         /*
+        //MOV SIN AXIS
         //Moviment horitzontal
         float hInput = Input.GetAxis("Horizontal");
         transform.position += new Vector3(hInput * speed * Time.deltaTime, 0, 0);
