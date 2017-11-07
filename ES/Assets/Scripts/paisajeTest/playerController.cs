@@ -8,14 +8,14 @@ public class playerController : MonoBehaviour {
     //public float speed = 5f;
 
     private Rigidbody2D Body;
-    public float maxSpeed = 20f;
+    public float maxSpeed = 15f;
 
     //Variables para el salto
     public bool touchFloor; //Nos indicará si el player esta tocando el suelo
     public float radio = 0.8f;
     public LayerMask floor;
     public Transform foot;
-    public float maxJump = 80f;//fuerza de salto
+    public float maxJump = 40f;//fuerza de salto
 
 	// Use this for initialization
 	void Start () {
