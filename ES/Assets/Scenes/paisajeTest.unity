@@ -806,7 +806,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 0.318, y: -50}
+  m_AnchoredPosition: {x: 0.3180008, y: -50}
   m_SizeDelta: {x: 99.301, y: 89.6}
   m_Pivot: {x: 0, y: 0.5}
 --- !u!114 &1464663978
@@ -1020,6 +1020,7 @@ GameObject:
   - component: {fileID: 1817626806}
   - component: {fileID: 1817626808}
   - component: {fileID: 1817626807}
+  - component: {fileID: 1817626809}
   m_Layer: 5
   m_Name: HealthBar
   m_TagString: Untagged
@@ -1080,6 +1081,18 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1817626805}
+--- !u!114 &1817626809
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1817626805}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 968b4b12faf5435489891f25050f1204, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: {fileID: 1464663978}
 --- !u!1 &1928284717
 GameObject:
   m_ObjectHideFlags: 0
