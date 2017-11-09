@@ -138,3 +138,4 @@ c2275a8bfbb9f9942cad75ecdfded41d UnityEngine.HoloLens.dll:UnityEngine.VR.WSA.Spa
 f74fbdd9ae805825f3dab763cdc6dfbd Assembly-CSharp.dll:.scriptTimer
 e335a59781ee417c1a105bec0246128d Assembly-CSharp.dll:.BulletShooter
 cdeaa50072194886a98ef08135a8224d Assembly-CSharp.dll:.PointerController
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.Bu

@@ -32202,6 +32202,7 @@ GameObject:
   - component: {fileID: 1360568738}
   - component: {fileID: 1360568739}
   - component: {fileID: 1360568740}
+  - component: {fileID: 1360568741}
   m_Layer: 8
   m_Name: Idleknight (9)
   m_TagString: Untagged
@@ -32353,9 +32354,27 @@ MonoBehaviour:
   m_GameObject: {fileID: 1360568733}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aae26d21f529d49caaee13b9bca1081e, type: 3}
+  m_Script: {fileID: 11500000, guid: 62834261b483945f39d52dedd5c6ead7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  projectile: {fileID: 1985433790540248, guid: d243b3a8f8c104d4784596c359ff1495, type: 2}
+  powerBar: {fileID: 1770309165478984, guid: 9f97d9cf7f98c4ee59785d4290bd93a0, type: 2}
+  velocity: 0
+  offset: {x: 0.4, y: 0.1}
+--- !u!114 &1360568741
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1360568733}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 653332067e8544b06aa59debd1a46080, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pointer: {fileID: 1874841273862878, guid: 0206d07d62751460888ab0ceafbd549d, type: 2}
+  angle: 0
+  pointerPosition: {x: 0, y: 0, z: 0}
 --- !u!1 &1367139618
 GameObject:
   m_ObjectHideFlags: 0
