@@ -12,10 +12,13 @@ public class playerController : MonoBehaviour {
 
     //Variables para el salto
     public bool touchFloor; //Nos indicará si el player esta tocando el suelo
+	public bool Grounded;
     public float radio = 0.8f;
     public LayerMask floor;
     public Transform foot;
     public float maxJump = 40f;//fuerza de salto
+
+	public float Speed;
 
 	// Use this for initialization
 	void Start () {
@@ -30,6 +33,8 @@ public class playerController : MonoBehaviour {
 
         touchFloor = Physics2D.OverlapCircle(foot.position, radio, floor);
 
+		Speed = Direction;
+		Grounded = touchFloor;
         //Para que el personaje gire
         if(Direction > 0){
           transform.localScale = new Vector3(1,1,1);
