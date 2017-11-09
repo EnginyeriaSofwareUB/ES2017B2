@@ -15,7 +15,7 @@ TagManager:
   - 
   - 
   - floor
-  - pointer
+  - 
   - 
   - 
   - 
@@ -44,7 +44,4 @@ TagManager:
     locked: 0
   - name: Interface
     uniqueID: 2779367567
-    locked: 0
-  - name: Pointer
-    uniqueID: 1818988613
     locked: 0
