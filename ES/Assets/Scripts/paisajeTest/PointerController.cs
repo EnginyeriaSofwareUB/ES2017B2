@@ -4,14 +4,15 @@ using UnityEngine;
 
 public class PointerController : MonoBehaviour {
 	
-	public GameObject pointerResource;
-	GameObject pointer;
+	public GameObject pointer;
+	//GameObject pointer;
 	int offset = 3;
-	float angle = 0;
+	public float angle = 0;
 	bool decreasing, increasing = false;
+	public Vector3 pointerPosition;
 	// Use this for initialization
 	void Start () {
-		pointer = Instantiate (pointerResource);
+		pointer = Instantiate (pointer);
 
 	}
 
@@ -41,6 +42,8 @@ public class PointerController : MonoBehaviour {
 		float xPosition = Mathf.Cos (Mathf.Deg2Rad * angle) * offset + transform.position.x;
 		float yPosition = Mathf.Sin (Mathf.Deg2Rad * angle) * offset + transform.position.y;
 
-		pointer.transform.position = new Vector3 (xPosition, yPosition, transform.position.z);
+		pointerPosition = new Vector3 (xPosition, yPosition, transform.position.z);
+
+		pointer.transform.position = pointerPosition;
 	}
 }
