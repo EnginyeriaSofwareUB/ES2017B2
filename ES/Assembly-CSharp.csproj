@@ -53,6 +53,7 @@
   <ItemGroup>
      <Compile Include="Assets\leftButtonPressed.cs" />
      <Compile Include="Assets\Scripts\paisajeTest\BulletShooter.cs" />
+     <Compile Include="Assets\Scripts\paisajeTest\HealthBar.cs" />
      <Compile Include="Assets\Scripts\paisajeTest\playerCollision.cs" />
      <Compile Include="Assets\Scripts\paisajeTest\playerController.cs" />
      <Compile Include="Assets\Scripts\paisajeTest\PointerController.cs" />
