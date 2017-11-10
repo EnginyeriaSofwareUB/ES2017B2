@@ -78,10 +78,14 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Bu.cs" />
     <Compile Include="Assets\leftButtonPressed.cs" />
+    <Compile Include="Assets\Scripts\paisajeTest\BulletShooter.cs" />
+    <Compile Include="Assets\Scripts\paisajeTest\EnergyBar.cs" />
     <Compile Include="Assets\Scripts\paisajeTest\HealthBar.cs" />
     <Compile Include="Assets\Scripts\paisajeTest\playerCollision.cs" />
     <Compile Include="Assets\Scripts\paisajeTest\playerController.cs" />
+    <Compile Include="Assets\Scripts\paisajeTest\PointerController.cs" />
     <Compile Include="Assets\Scripts\paisajeTest\scriptTimer.cs" />
     <Compile Include="Assets\Scripts\pantallaInici\ExitButtonPressed.cs" />
     <Compile Include="Assets\Scripts\pantallaInici\NewGameButtonPressed.cs" />
