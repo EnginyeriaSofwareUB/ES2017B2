@@ -21,6 +21,7 @@ public class playerController : MonoBehaviour {
     public float Speed;
 
     private GameObject energyBar; // variable apra gestionar la barra de energia
+    private float playerEnergy;
 
 	// Use this for initialization
 	void Start () {
@@ -32,13 +33,13 @@ public class playerController : MonoBehaviour {
 	void Update () {
 
       float Direction = Input.GetAxis("Horizontal");
-      if(Direction != 0){
+      //float energyPlayer = GetComponent<EnergyBar>().energy;
+      if(Direction != 0 && playerEnergy > 0.0f ){ // comprobamos si el usuario quiere moverse horizontalmente
         energyBar.SendMessage("TakeEnergy",3);//llama al metododel script energyBar y le resta la cantidad que pasamos.
-    }
-      Body.velocity = new Vector2(Direction * maxSpeed, Body.velocity.y);
+        Body.velocity = new Vector2(Direction * maxSpeed, Body.velocity.y);
+      }
 
       touchFloor = Physics2D.OverlapCircle(foot.position, radio, floor);
-
       Speed = Direction;
       Grounded = touchFloor;
 
@@ -56,5 +57,7 @@ public class playerController : MonoBehaviour {
         }
       }
 
+      //actualizamos la energia del jugador
+      playerEnergy = energyBar.GetComponent<EnergyBar>().energy;
     }
 }
