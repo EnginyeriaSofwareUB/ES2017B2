@@ -7,8 +7,10 @@ public class BulletShooter : MonoBehaviour {
 	public GameObject projectile;
 	public GameObject powerBar;
 	private GUITexture powerBarTexture;
+	private GameObject bullet;
+	private bool shooting = false;
 	public float velocity;
-	bool shooting = false;
+	bool chargingShoot = false;
 	public Vector2 offset = new Vector2(0.4f,0.1f);
 
 	// Use this for initialization
@@ -22,18 +24,24 @@ public class BulletShooter : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		if (Input.GetKeyDown (KeyCode.LeftShift)) {
-			shooting = true;
+			chargingShoot = true;
 		}
 
-		if (shooting && (Input.GetKeyUp (KeyCode.LeftShift) || velocity >= 128)) {
-			shooting = false;
+		if (chargingShoot && (Input.GetKeyUp (KeyCode.LeftShift) || velocity >= 128)) {
+			chargingShoot = false;
 			shoot ();
 		}
 
-		if (shooting) {
+		if (chargingShoot) {
 			velocity += Time.deltaTime * 85.33f;
 			velocity = Mathf.Clamp (velocity, 0, 128);
 			powerBarTexture.pixelInset = new Rect(transform.position.x, transform.position.y, velocity, 10);
+		}
+
+		if (shooting) {
+			Vector2 dir = bullet.GetComponent<Rigidbody2D> ().velocity;
+			float angle = Mathf.Atan2 (dir.y, dir.x) * Mathf.Rad2Deg;
+			bullet.transform.rotation = Quaternion.AngleAxis (angle, Vector3.forward);
 		}
 	}
 
@@ -41,9 +49,9 @@ public class BulletShooter : MonoBehaviour {
 		float shootPower = velocity / 5;
 
 		float angle = GetComponent<PointerController> ().angle;
-		GameObject go = (GameObject) Instantiate (projectile,(Vector2) transform.position + offset * transform.localScale.x, Quaternion.identity);
-		go.GetComponent<Rigidbody2D> ().velocity = new Vector2 (shootPower * Mathf.Cos(Mathf.Deg2Rad * angle), shootPower * Mathf.Sin(Mathf.Deg2Rad * angle));
-
+		bullet = (GameObject) Instantiate (projectile,(Vector2) transform.position + offset * transform.localScale.x, Quaternion.identity);
+		bullet.GetComponent<Rigidbody2D> ().velocity = new Vector2 (shootPower * Mathf.Cos(Mathf.Deg2Rad * angle), shootPower * Mathf.Sin(Mathf.Deg2Rad * angle));
+		shooting = true;
 		velocity = 0;
 		powerBarTexture.pixelInset = new Rect(0, 0, 0, 10);
 	}
