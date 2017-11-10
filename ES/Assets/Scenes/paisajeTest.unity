@@ -14110,10 +14110,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 571658800}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 968b4b12faf5435489891f25050f1204, type: 3}
+  m_Script: {fileID: 11500000, guid: ee4aee064a1937748a57f61953fb75e0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: {fileID: 2064335703}
+  energia: {fileID: 2064335703}
 --- !u!114 &571658803
 MonoBehaviour:
   m_ObjectHideFlags: 0
