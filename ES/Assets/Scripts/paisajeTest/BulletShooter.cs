@@ -39,9 +39,11 @@ public class BulletShooter : MonoBehaviour {
 		}
 
 		if (shooting) {
-			Vector2 dir = bullet.GetComponent<Rigidbody2D> ().velocity;
-			float angle = Mathf.Atan2 (dir.y, dir.x) * Mathf.Rad2Deg;
-			bullet.transform.rotation = Quaternion.AngleAxis (angle, Vector3.forward);
+			if (bullet != null) {
+				Vector2 dir = bullet.GetComponent<Rigidbody2D> ().velocity;
+				float angle = Mathf.Atan2 (dir.y, dir.x) * Mathf.Rad2Deg;
+				bullet.transform.rotation = Quaternion.AngleAxis (angle, Vector3.forward);
+			}
 		}
 	}
 
