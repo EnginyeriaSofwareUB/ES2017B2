@@ -90,6 +90,7 @@
     <Compile Include="Assets\Scripts\paisajeTest\scriptTimer.cs" />
     <Compile Include="Assets\Scripts\pantallaInici\ExitButtonPressed.cs" />
     <Compile Include="Assets\Scripts\pantallaInici\NewGameButtonPressed.cs" />
+    <Compile Include="Assets\Scripts\pantallaInici\numPlayersSelect.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />

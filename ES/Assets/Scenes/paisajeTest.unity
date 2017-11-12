@@ -409,7 +409,7 @@ GameObject:
   - component: {fileID: 9068975}
   - component: {fileID: 9068977}
   - component: {fileID: 9068976}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: terreno_2 (1)
   m_TagString: map
   m_Icon: {fileID: 0}
@@ -603,7 +603,7 @@ GameObject:
   - component: {fileID: 13880825}
   - component: {fileID: 13880827}
   - component: {fileID: 13880826}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: terreno_2 (31)
   m_TagString: map
   m_Icon: {fileID: 0}
@@ -700,7 +700,7 @@ GameObject:
   - component: {fileID: 16769663}
   - component: {fileID: 16769665}
   - component: {fileID: 16769664}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: terreno_2 (27)
   m_TagString: map
   m_Icon: {fileID: 0}
@@ -1062,7 +1062,7 @@ GameObject:
   - component: {fileID: 27166713}
   - component: {fileID: 27166715}
   - component: {fileID: 27166714}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: terreno_2 (28)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1644,7 +1644,7 @@ GameObject:
   - component: {fileID: 43696425}
   - component: {fileID: 43696427}
   - component: {fileID: 43696426}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: terreno_2 (23)
   m_TagString: map
   m_Icon: {fileID: 0}
@@ -1741,7 +1741,7 @@ GameObject:
   - component: {fileID: 44028486}
   - component: {fileID: 44028488}
   - component: {fileID: 44028487}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: terreno_1 (18)
   m_TagString: map
   m_Icon: {fileID: 0}
@@ -1935,7 +1935,7 @@ GameObject:
   - component: {fileID: 45530629}
   - component: {fileID: 45530631}
   - component: {fileID: 45530630}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: terreno_2 (15)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2032,7 +2032,7 @@ GameObject:
   - component: {fileID: 54301937}
   - component: {fileID: 54301939}
   - component: {fileID: 54301938}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: terreno_2 (24)
   m_TagString: map
   m_Icon: {fileID: 0}
@@ -2226,7 +2226,7 @@ GameObject:
   - component: {fileID: 61879874}
   - component: {fileID: 61879876}
   - component: {fileID: 61879875}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: terreno_2 (4)
   m_TagString: map
   m_Icon: {fileID: 0}
@@ -2323,7 +2323,7 @@ GameObject:
   - component: {fileID: 66142963}
   - component: {fileID: 66142965}
   - component: {fileID: 66142964}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: terreno_2 (9)
   m_TagString: map
   m_Icon: {fileID: 0}
@@ -2420,7 +2420,7 @@ GameObject:
   - component: {fileID: 69769173}
   - component: {fileID: 69769175}
   - component: {fileID: 69769174}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: terreno_2 (9)
   m_TagString: map
   m_Icon: {fileID: 0}
@@ -2517,7 +2517,7 @@ GameObject:
   - component: {fileID: 75676397}
   - component: {fileID: 75676399}
   - component: {fileID: 75676398}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: terreno_2 (4)
   m_TagString: map
   m_Icon: {fileID: 0}
@@ -3050,7 +3050,7 @@ GameObject:
   - component: {fileID: 99245629}
   - component: {fileID: 99245631}
   - component: {fileID: 99245630}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: terreno_2 (8)
   m_TagString: map
   m_Icon: {fileID: 0}
@@ -3535,7 +3535,7 @@ GameObject:
   - component: {fileID: 131422012}
   - component: {fileID: 131422014}
   - component: {fileID: 131422013}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: terreno_2 (27)
   m_TagString: map
   m_Icon: {fileID: 0}
@@ -3632,7 +3632,7 @@ GameObject:
   - component: {fileID: 137251214}
   - component: {fileID: 137251216}
   - component: {fileID: 137251215}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: terreno_2 (18)
   m_TagString: map
   m_Icon: {fileID: 0}
@@ -3868,7 +3868,7 @@ GameObject:
   - component: {fileID: 145327859}
   - component: {fileID: 145327861}
   - component: {fileID: 145327860}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: terreno_1 (29)
   m_TagString: map
   m_Icon: {fileID: 0}
@@ -4062,7 +4062,7 @@ GameObject:
   - component: {fileID: 151745880}
   - component: {fileID: 151745882}
   - component: {fileID: 151745881}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: terreno_2 (14)
   m_TagString: map
   m_Icon: {fileID: 0}
@@ -4353,7 +4353,7 @@ GameObject:
   - component: {fileID: 163846763}
   - component: {fileID: 163846765}
   - component: {fileID: 163846764}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: terreno_1 (9)
   m_TagString: map
   m_Icon: {fileID: 0}
@@ -4547,7 +4547,7 @@ GameObject:
   - component: {fileID: 170943475}
   - component: {fileID: 170943477}
   - component: {fileID: 170943476}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: terreno_2 (16)
   m_TagString: map
   m_Icon: {fileID: 0}
@@ -4644,7 +4644,7 @@ GameObject:
   - component: {fileID: 171671230}
   - component: {fileID: 171671232}
   - component: {fileID: 171671231}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: terreno_2 (30)
   m_TagString: map
   m_Icon: {fileID: 0}
@@ -4741,7 +4741,7 @@ GameObject:
   - component: {fileID: 174166909}
   - component: {fileID: 174166911}
   - component: {fileID: 174166910}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: terreno_2 (2)
   m_TagString: map
   m_Icon: {fileID: 0}
@@ -5323,7 +5323,7 @@ GameObject:
   - component: {fileID: 192732377}
   - component: {fileID: 192732379}
   - component: {fileID: 192732378}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: terreno_1 (5)
   m_TagString: map
   m_Icon: {fileID: 0}
@@ -5614,7 +5614,7 @@ GameObject:
   - component: {fileID: 206038587}
   - component: {fileID: 206038589}
   - component: {fileID: 206038588}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: terreno_2 (31)
   m_TagString: map
   m_Icon: {fileID: 0}
@@ -5905,7 +5905,7 @@ GameObject:
   - component: {fileID: 216385480}
   - component: {fileID: 216385482}
   - component: {fileID: 216385481}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: terreno_2 (17)
   m_TagString: map
   m_Icon: {fileID: 0}
@@ -6099,7 +6099,7 @@ GameObject:
   - component: {fileID: 225979009}
   - component: {fileID: 225979011}
   - component: {fileID: 225979010}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: terreno_1 (23)
   m_TagString: map
   m_Icon: {fileID: 0}
@@ -6196,7 +6196,7 @@ GameObject:
   - component: {fileID: 228937425}
   - component: {fileID: 228937427}
   - component: {fileID: 228937426}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: terreno_1 (26)
   m_TagString: map
   m_Icon: {fileID: 0}
@@ -6487,7 +6487,7 @@ GameObject:
   - component: {fileID: 236296118}
   - component: {fileID: 236296120}
   - component: {fileID: 236296119}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: terreno_1 (8)
   m_TagString: map
   m_Icon: {fileID: 0}
@@ -6681,7 +6681,7 @@ GameObject:
   - component: {fileID: 249493123}
   - component: {fileID: 249493125}
   - component: {fileID: 249493124}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: terreno_2 (23)
   m_TagString: map
   m_Icon: {fileID: 0}
@@ -6778,7 +6778,7 @@ GameObject:
   - component: {fileID: 253866134}
   - component: {fileID: 253866136}
   - component: {fileID: 253866135}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: terreno_2 (26)
   m_TagString: map
   m_Icon: {fileID: 0}
@@ -6875,7 +6875,7 @@ GameObject:
   - component: {fileID: 260593986}
   - component: {fileID: 260593988}
   - component: {fileID: 260593987}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: terreno_2 (31)
   m_TagString: map
   m_Icon: {fileID: 0}
@@ -7069,7 +7069,7 @@ GameObject:
   - component: {fileID: 261697101}
   - component: {fileID: 261697103}
   - component: {fileID: 261697102}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: terreno_1 (7)
   m_TagString: map
   m_Icon: {fileID: 0}
@@ -7166,7 +7166,7 @@ GameObject:
   - component: {fileID: 261805211}
   - component: {fileID: 261805213}
   - component: {fileID: 261805212}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: terreno_2 (4)
   m_TagString: map
   m_Icon: {fileID: 0}
@@ -7263,7 +7263,7 @@ GameObject:
   - component: {fileID: 267747821}
   - component: {fileID: 267747823}
   - component: {fileID: 267747822}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: terreno_2 (12)
   m_TagString: map
   m_Icon: {fileID: 0}
@@ -7360,7 +7360,7 @@ GameObject:
   - component: {fileID: 269338049}
   - component: {fileID: 269338051}
   - component: {fileID: 269338050}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: terreno_2 (2)
   m_TagString: map
   m_Icon: {fileID: 0}
@@ -7651,7 +7651,7 @@ GameObject:
   - component: {fileID: 284854573}
   - component: {fileID: 284854575}
   - component: {fileID: 284854574}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: terreno_1 (13)
   m_TagString: map
   m_Icon: {fileID: 0}
@@ -8039,7 +8039,7 @@ GameObject:
   - component: {fileID: 294621030}
   - component: {fileID: 294621032}
   - component: {fileID: 294621031}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: terreno_1 (3)
   m_TagString: map
   m_Icon: {fileID: 0}
@@ -8136,7 +8136,7 @@ GameObject:
   - component: {fileID: 305739827}
   m_Layer: 8
   m_Name: player
-  m_TagString: Player
+  m_TagString: player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8152,7 +8152,6 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1360568734}
-  - {fileID: 1094154010}
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -8457,7 +8456,7 @@ GameObject:
   - component: {fileID: 318754483}
   - component: {fileID: 318754485}
   - component: {fileID: 318754484}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: terreno_2 (4)
   m_TagString: map
   m_Icon: {fileID: 0}
@@ -8651,7 +8650,7 @@ GameObject:
   - component: {fileID: 321389435}
   - component: {fileID: 321389437}
   - component: {fileID: 321389436}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: terreno_2 (22)
   m_TagString: map
   m_Icon: {fileID: 0}
@@ -8748,7 +8747,7 @@ GameObject:
   - component: {fileID: 332288321}
   - component: {fileID: 332288323}
   - component: {fileID: 332288322}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: terreno_2 (8)
   m_TagString: map
   m_Icon: {fileID: 0}
@@ -9401,7 +9400,7 @@ GameObject:
   - component: {fileID: 378740894}
   - component: {fileID: 378740896}
   - component: {fileID: 378740895}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: terreno_1 (3)
   m_TagString: map
   m_Icon: {fileID: 0}
@@ -9886,7 +9885,7 @@ GameObject:
   - component: {fileID: 406308255}
   - component: {fileID: 406308257}
   - component: {fileID: 406308256}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: terreno_1 (8)
   m_TagString: map
   m_Icon: {fileID: 0}
@@ -10345,7 +10344,7 @@ GameObject:
   - component: {fileID: 424237756}
   - component: {fileID: 424237758}
   - component: {fileID: 424237757}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: terreno_1 (13)
   m_TagString: map
   m_Icon: {fileID: 0}
@@ -10442,7 +10441,7 @@ GameObject:
   - component: {fileID: 430886029}
   - component: {fileID: 430886031}
   - component: {fileID: 430886030}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: terreno_2 (14)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11095,7 +11094,7 @@ GameObject:
   - component: {fileID: 463692936}
   - component: {fileID: 463692938}
   - component: {fileID: 463692937}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: terreno_2 (12)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11386,7 +11385,7 @@ GameObject:
   - component: {fileID: 477194518}
   - component: {fileID: 477194520}
   - component: {fileID: 477194519}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: terreno_1 (11)
   m_TagString: map
   m_Icon: {fileID: 0}
@@ -11483,7 +11482,7 @@ GameObject:
   - component: {fileID: 482142873}
   - component: {fileID: 482142875}
   - component: {fileID: 482142874}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: terreno_2 (26)
   m_TagString: map
   m_Icon: {fileID: 0}
@@ -11871,7 +11870,7 @@ GameObject:
   - component: {fileID: 491984158}
   - component: {fileID: 491984160}
   - component: {fileID: 491984159}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: terreno_1 (9)
   m_TagString: map
   m_Icon: {fileID: 0}
@@ -12065,7 +12064,7 @@ GameObject:
   - component: {fileID: 496187696}
   - component: {fileID: 496187698}
   - component: {fileID: 496187697}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: terreno_2 (9)
   m_TagString: map
   m_Icon: {fileID: 0}
@@ -12162,7 +12161,7 @@ GameObject:
   - component: {fileID: 498050719}
   - component: {fileID: 498050721}
   - component: {fileID: 498050720}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: terreno_1 (21)
   m_TagString: map
   m_Icon: {fileID: 0}
@@ -12453,7 +12452,7 @@ GameObject:
   - component: {fileID: 506373932}
   - component: {fileID: 506373934}
   - component: {fileID: 506373933}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: terreno_2 (13)
   m_TagString: map
   m_Icon: {fileID: 0}
@@ -12550,7 +12549,7 @@ GameObject:
   - component: {fileID: 506820078}
   - component: {fileID: 506820080}
   - component: {fileID: 506820079}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: terreno_2 (3)
   m_TagString: map
   m_Icon: {fileID: 0}
@@ -12647,7 +12646,7 @@ GameObject:
   - component: {fileID: 515482128}
   - component: {fileID: 515482130}
   - component: {fileID: 515482129}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: terreno_1 (25)
   m_TagString: map
   m_Icon: {fileID: 0}
@@ -12812,7 +12811,7 @@ GameObject:
   - component: {fileID: 516104878}
   - component: {fileID: 516104880}
   - component: {fileID: 516104879}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: terreno_1 (12)
   m_TagString: map
   m_Icon: {fileID: 0}
@@ -12909,7 +12908,7 @@ GameObject:
   - component: {fileID: 517820497}
   - component: {fileID: 517820499}
   - component: {fileID: 517820498}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: terreno_2 (28)
   m_TagString: map
   m_Icon: {fileID: 0}
@@ -13006,7 +13005,7 @@ GameObject:
   - component: {fileID: 528043548}
   - component: {fileID: 528043550}
   - component: {fileID: 528043549}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: terreno_2
   m_TagString: map
   m_Icon: {fileID: 0}
@@ -13297,7 +13296,7 @@ GameObject:
   - component: {fileID: 541771899}
   - component: {fileID: 541771901}
   - component: {fileID: 541771900}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: terreno_1 (2)
   m_TagString: map
   m_Icon: {fileID: 0}
@@ -13394,7 +13393,7 @@ GameObject:
   - component: {fileID: 548662572}
   - component: {fileID: 548662574}
   - component: {fileID: 548662573}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: terreno_1 (7)
   m_TagString: map
   m_Icon: {fileID: 0}
@@ -13588,7 +13587,7 @@ GameObject:
   - component: {fileID: 549157007}
   - component: {fileID: 549157009}
   - component: {fileID: 549157008}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: terreno_2 (11)
   m_TagString: map
   m_Icon: {fileID: 0}
@@ -13685,7 +13684,7 @@ GameObject:
   - component: {fileID: 550321237}
   - component: {fileID: 550321239}
   - component: {fileID: 550321238}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: terreno_2 (16)
   m_TagString: map
   m_Icon: {fileID: 0}
@@ -13976,7 +13975,7 @@ GameObject:
   - component: {fileID: 568504768}
   - component: {fileID: 568504770}
   - component: {fileID: 568504769}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: terreno_2 (15)
   m_TagString: map
   m_Icon: {fileID: 0}
@@ -14159,7 +14158,7 @@ GameObject:
   - component: {fileID: 575969570}
   - component: {fileID: 575969572}
   - component: {fileID: 575969571}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: terreno_2 (12)
   m_TagString: map
   m_Icon: {fileID: 0}
@@ -14256,7 +14255,7 @@ GameObject:
   - component: {fileID: 581388106}
   - component: {fileID: 581388108}
   - component: {fileID: 581388107}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: terreno_1
   m_TagString: map
   m_Icon: {fileID: 0}
@@ -14353,7 +14352,7 @@ GameObject:
   - component: {fileID: 583177633}
   - component: {fileID: 583177635}
   - component: {fileID: 583177634}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: terreno_1 (6)
   m_TagString: map
   m_Icon: {fileID: 0}
@@ -14450,7 +14449,7 @@ GameObject:
   - component: {fileID: 584162112}
   - component: {fileID: 584162114}
   - component: {fileID: 584162113}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: terreno_1 (11)
   m_TagString: map
   m_Icon: {fileID: 0}
@@ -15032,7 +15031,7 @@ GameObject:
   - component: {fileID: 610405612}
   - component: {fileID: 610405614}
   - component: {fileID: 610405613}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: terreno_2 (3)
   m_TagString: map
   m_Icon: {fileID: 0}
@@ -15226,7 +15225,7 @@ GameObject:
   - component: {fileID: 628164101}
   - component: {fileID: 628164103}
   - component: {fileID: 628164102}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: terreno_2 (6)
   m_TagString: map
   m_Icon: {fileID: 0}
@@ -15420,7 +15419,7 @@ GameObject:
   - component: {fileID: 634691398}
   - component: {fileID: 634691400}
   - component: {fileID: 634691399}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: terreno_2 (19)
   m_TagString: map
   m_Icon: {fileID: 0}
@@ -15614,7 +15613,7 @@ GameObject:
   - component: {fileID: 641227334}
   - component: {fileID: 641227336}
   - component: {fileID: 641227335}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: terreno_1 (24)
   m_TagString: map
   m_Icon: {fileID: 0}
@@ -15711,7 +15710,7 @@ GameObject:
   - component: {fileID: 648031004}
   - component: {fileID: 648031006}
   - component: {fileID: 648031005}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: terreno_2 (25)
   m_TagString: map
   m_Icon: {fileID: 0}
@@ -15973,7 +15972,7 @@ GameObject:
   - component: {fileID: 650563188}
   - component: {fileID: 650563190}
   - component: {fileID: 650563189}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: terreno_1 (31)
   m_TagString: map
   m_Icon: {fileID: 0}
@@ -16458,7 +16457,7 @@ GameObject:
   - component: {fileID: 667700145}
   - component: {fileID: 667700147}
   - component: {fileID: 667700146}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: terreno_2 (17)
   m_TagString: map
   m_Icon: {fileID: 0}
@@ -16652,7 +16651,7 @@ GameObject:
   - component: {fileID: 685304138}
   - component: {fileID: 685304140}
   - component: {fileID: 685304139}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: terreno_2 (23)
   m_TagString: map
   m_Icon: {fileID: 0}
@@ -16846,7 +16845,7 @@ GameObject:
   - component: {fileID: 693259355}
   - component: {fileID: 693259357}
   - component: {fileID: 693259356}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: terreno_1 (21)
   m_TagString: map
   m_Icon: {fileID: 0}
@@ -17137,7 +17136,7 @@ GameObject:
   - component: {fileID: 704006718}
   - component: {fileID: 704006720}
   - component: {fileID: 704006719}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: terreno_1 (4)
   m_TagString: map
   m_Icon: {fileID: 0}
@@ -17525,7 +17524,7 @@ GameObject:
   - component: {fileID: 716569228}
   - component: {fileID: 716569230}
   - component: {fileID: 716569229}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: terreno_1 (12)
   m_TagString: map
   m_Icon: {fileID: 0}
@@ -17612,6 +17611,34 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!1 &717359873
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 717359874}
+  m_Layer: 8
+  m_Name: foot
+  m_TagString: player
+  m_Icon: {fileID: -964228994112308473, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &717359874
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 717359873}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.003000021, y: -0.53, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1360568734}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &720512956
 GameObject:
   m_ObjectHideFlags: 0
@@ -17719,7 +17746,7 @@ GameObject:
   - component: {fileID: 728907855}
   - component: {fileID: 728907857}
   - component: {fileID: 728907856}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: terreno_2 (13)
   m_TagString: map
   m_Icon: {fileID: 0}
@@ -18462,7 +18489,7 @@ GameObject:
   - component: {fileID: 743616362}
   - component: {fileID: 743616364}
   - component: {fileID: 743616363}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: terreno_2 (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18850,7 +18877,7 @@ GameObject:
   - component: {fileID: 762850956}
   - component: {fileID: 762850958}
   - component: {fileID: 762850957}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: terreno_1 (27)
   m_TagString: map
   m_Icon: {fileID: 0}
@@ -18947,7 +18974,7 @@ GameObject:
   - component: {fileID: 769303194}
   - component: {fileID: 769303196}
   - component: {fileID: 769303195}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: terreno_2 (29)
   m_TagString: map
   m_Icon: {fileID: 0}
@@ -19044,7 +19071,7 @@ GameObject:
   - component: {fileID: 774184656}
   - component: {fileID: 774184658}
   - component: {fileID: 774184657}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: terreno_2 (20)
   m_TagString: map
   m_Icon: {fileID: 0}
@@ -19238,7 +19265,7 @@ GameObject:
   - component: {fileID: 781615037}
   - component: {fileID: 781615039}
   - component: {fileID: 781615038}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: terreno_2 (26)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19335,7 +19362,7 @@ GameObject:
   - component: {fileID: 783202359}
   - component: {fileID: 783202361}
   - component: {fileID: 783202360}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: terreno_1 (20)
   m_TagString: map
   m_Icon: {fileID: 0}
@@ -19529,7 +19556,7 @@ GameObject:
   - component: {fileID: 785585213}
   - component: {fileID: 785585215}
   - component: {fileID: 785585214}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: terreno_1 (15)
   m_TagString: map
   m_Icon: {fileID: 0}
@@ -19723,7 +19750,7 @@ GameObject:
   - component: {fileID: 789150853}
   - component: {fileID: 789150855}
   - component: {fileID: 789150854}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: terreno_2 (13)
   m_TagString: map
   m_Icon: {fileID: 0}
@@ -19917,7 +19944,7 @@ GameObject:
   - component: {fileID: 802891624}
   - component: {fileID: 802891626}
   - component: {fileID: 802891625}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: terreno_2 (24)
   m_TagString: map
   m_Icon: {fileID: 0}
@@ -20014,7 +20041,7 @@ GameObject:
   - component: {fileID: 803608908}
   - component: {fileID: 803608910}
   - component: {fileID: 803608909}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: terreno_1 (30)
   m_TagString: map
   m_Icon: {fileID: 0}
@@ -20573,7 +20600,7 @@ GameObject:
   - component: {fileID: 827635807}
   - component: {fileID: 827635809}
   - component: {fileID: 827635808}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: terreno_2 (25)
   m_TagString: map
   m_Icon: {fileID: 0}
@@ -20670,7 +20697,7 @@ GameObject:
   - component: {fileID: 831002737}
   - component: {fileID: 831002739}
   - component: {fileID: 831002738}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: terreno_2 (6)
   m_TagString: map
   m_Icon: {fileID: 0}
@@ -20864,7 +20891,7 @@ GameObject:
   - component: {fileID: 838662566}
   - component: {fileID: 838662568}
   - component: {fileID: 838662567}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: terreno_2 (21)
   m_TagString: map
   m_Icon: {fileID: 0}
@@ -20961,7 +20988,7 @@ GameObject:
   - component: {fileID: 850284997}
   - component: {fileID: 850284999}
   - component: {fileID: 850284998}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: terreno_2 (26)
   m_TagString: map
   m_Icon: {fileID: 0}
@@ -21252,7 +21279,7 @@ GameObject:
   - component: {fileID: 863030948}
   - component: {fileID: 863030947}
   - component: {fileID: 863030946}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: terreno2 (1)
   m_TagString: map
   m_Icon: {fileID: 0}
@@ -21479,7 +21506,7 @@ GameObject:
   - component: {fileID: 869859594}
   - component: {fileID: 869859596}
   - component: {fileID: 869859595}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: terreno_2 (2)
   m_TagString: map
   m_Icon: {fileID: 0}
@@ -21756,7 +21783,7 @@ GameObject:
   - component: {fileID: 885510082}
   - component: {fileID: 885510084}
   - component: {fileID: 885510083}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: terreno_2 (3)
   m_TagString: map
   m_Icon: {fileID: 0}
@@ -21950,7 +21977,7 @@ GameObject:
   - component: {fileID: 888609528}
   - component: {fileID: 888609530}
   - component: {fileID: 888609529}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: terreno_2 (21)
   m_TagString: map
   m_Icon: {fileID: 0}
@@ -22047,7 +22074,7 @@ GameObject:
   - component: {fileID: 889047685}
   - component: {fileID: 889047687}
   - component: {fileID: 889047686}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: terreno_2 (30)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22629,7 +22656,7 @@ GameObject:
   - component: {fileID: 917504878}
   - component: {fileID: 917504880}
   - component: {fileID: 917504879}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: terreno_2 (7)
   m_TagString: map
   m_Icon: {fileID: 0}
@@ -22797,7 +22824,7 @@ GameObject:
   - component: {fileID: 938659125}
   - component: {fileID: 938659127}
   - component: {fileID: 938659126}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: terreno_2 (25)
   m_TagString: map
   m_Icon: {fileID: 0}
@@ -22894,7 +22921,7 @@ GameObject:
   - component: {fileID: 947298444}
   - component: {fileID: 947298446}
   - component: {fileID: 947298445}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: terreno_2
   m_TagString: map
   m_Icon: {fileID: 0}
@@ -23088,7 +23115,7 @@ GameObject:
   - component: {fileID: 950992404}
   - component: {fileID: 950992406}
   - component: {fileID: 950992405}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: terreno_2 (19)
   m_TagString: map
   m_Icon: {fileID: 0}
@@ -23662,7 +23689,7 @@ GameObject:
   - component: {fileID: 969962669}
   - component: {fileID: 969962671}
   - component: {fileID: 969962670}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: terreno_1 (16)
   m_TagString: map
   m_Icon: {fileID: 0}
@@ -23927,7 +23954,7 @@ GameObject:
   - component: {fileID: 976750028}
   - component: {fileID: 976750030}
   - component: {fileID: 976750029}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: terreno_2 (10)
   m_TagString: map
   m_Icon: {fileID: 0}
@@ -24871,7 +24898,7 @@ GameObject:
   - component: {fileID: 1036435227}
   - component: {fileID: 1036435229}
   - component: {fileID: 1036435228}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: terreno_2 (29)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24968,7 +24995,7 @@ GameObject:
   - component: {fileID: 1037949462}
   - component: {fileID: 1037949464}
   - component: {fileID: 1037949463}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: terreno_1 (28)
   m_TagString: map
   m_Icon: {fileID: 0}
@@ -25356,7 +25383,7 @@ GameObject:
   - component: {fileID: 1053434257}
   - component: {fileID: 1053434259}
   - component: {fileID: 1053434258}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: terreno_2 (8)
   m_TagString: map
   m_Icon: {fileID: 0}
@@ -25453,7 +25480,7 @@ GameObject:
   - component: {fileID: 1064261823}
   - component: {fileID: 1064261825}
   - component: {fileID: 1064261824}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: terreno_2 (17)
   m_TagString: map
   m_Icon: {fileID: 0}
@@ -25744,7 +25771,7 @@ GameObject:
   - component: {fileID: 1088327386}
   - component: {fileID: 1088327388}
   - component: {fileID: 1088327387}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: terreno_2 (1)
   m_TagString: map
   m_Icon: {fileID: 0}
@@ -25928,34 +25955,6 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
---- !u!1 &1094154009
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 1094154010}
-  m_Layer: 8
-  m_Name: foot
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1094154010
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1094154009}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.01, y: -4.4, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 305739827}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1094548048
 GameObject:
   m_ObjectHideFlags: 0
@@ -25966,7 +25965,7 @@ GameObject:
   - component: {fileID: 1094548049}
   - component: {fileID: 1094548051}
   - component: {fileID: 1094548050}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: terreno_2 (20)
   m_TagString: map
   m_Icon: {fileID: 0}
@@ -26416,7 +26415,7 @@ GameObject:
   - component: {fileID: 1113500350}
   - component: {fileID: 1113500352}
   - component: {fileID: 1113500351}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: terreno_2 (1)
   m_TagString: map
   m_Icon: {fileID: 0}
@@ -26901,7 +26900,7 @@ GameObject:
   - component: {fileID: 1135522153}
   - component: {fileID: 1135522155}
   - component: {fileID: 1135522154}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: terreno_2 (24)
   m_TagString: map
   m_Icon: {fileID: 0}
@@ -26998,7 +26997,7 @@ GameObject:
   - component: {fileID: 1140313284}
   - component: {fileID: 1140313286}
   - component: {fileID: 1140313285}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: terreno_2 (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27289,7 +27288,7 @@ GameObject:
   - component: {fileID: 1162888200}
   - component: {fileID: 1162888202}
   - component: {fileID: 1162888201}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: terreno_1 (27)
   m_TagString: map
   m_Icon: {fileID: 0}
@@ -27708,7 +27707,7 @@ GameObject:
   - component: {fileID: 1169384327}
   - component: {fileID: 1169384329}
   - component: {fileID: 1169384328}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: terreno_2 (5)
   m_TagString: map
   m_Icon: {fileID: 0}
@@ -27805,7 +27804,7 @@ GameObject:
   - component: {fileID: 1171145168}
   - component: {fileID: 1171145170}
   - component: {fileID: 1171145169}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: terreno_2 (7)
   m_TagString: map
   m_Icon: {fileID: 0}
@@ -28193,7 +28192,7 @@ GameObject:
   - component: {fileID: 1181561222}
   - component: {fileID: 1181561224}
   - component: {fileID: 1181561223}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: terreno_2 (15)
   m_TagString: map
   m_Icon: {fileID: 0}
@@ -28290,7 +28289,7 @@ GameObject:
   - component: {fileID: 1185705808}
   - component: {fileID: 1185705810}
   - component: {fileID: 1185705809}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: terreno_1 (19)
   m_TagString: map
   m_Icon: {fileID: 0}
@@ -28581,7 +28580,7 @@ GameObject:
   - component: {fileID: 1215159537}
   - component: {fileID: 1215159539}
   - component: {fileID: 1215159538}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: terreno_2
   m_TagString: map
   m_Icon: {fileID: 0}
@@ -29137,7 +29136,7 @@ GameObject:
   - component: {fileID: 1244247529}
   - component: {fileID: 1244247531}
   - component: {fileID: 1244247530}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: terreno_2 (20)
   m_TagString: map
   m_Icon: {fileID: 0}
@@ -29331,7 +29330,7 @@ GameObject:
   - component: {fileID: 1246707635}
   - component: {fileID: 1246707637}
   - component: {fileID: 1246707636}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: terreno_1 (24)
   m_TagString: map
   m_Icon: {fileID: 0}
@@ -29428,7 +29427,7 @@ GameObject:
   - component: {fileID: 1247290496}
   - component: {fileID: 1247290498}
   - component: {fileID: 1247290497}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: terreno_1 (23)
   m_TagString: map
   m_Icon: {fileID: 0}
@@ -29525,7 +29524,7 @@ GameObject:
   - component: {fileID: 1250802385}
   - component: {fileID: 1250802387}
   - component: {fileID: 1250802386}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: terreno_1 (18)
   m_TagString: map
   m_Icon: {fileID: 0}
@@ -29719,7 +29718,7 @@ GameObject:
   - component: {fileID: 1255824753}
   - component: {fileID: 1255824755}
   - component: {fileID: 1255824754}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: terreno_2 (28)
   m_TagString: map
   m_Icon: {fileID: 0}
@@ -29816,7 +29815,7 @@ GameObject:
   - component: {fileID: 1258710950}
   - component: {fileID: 1258710952}
   - component: {fileID: 1258710951}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: terreno_1 (29)
   m_TagString: map
   m_Icon: {fileID: 0}
@@ -30010,7 +30009,7 @@ GameObject:
   - component: {fileID: 1262766701}
   - component: {fileID: 1262766703}
   - component: {fileID: 1262766702}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: terreno_2 (18)
   m_TagString: map
   m_Icon: {fileID: 0}
@@ -30398,7 +30397,7 @@ GameObject:
   - component: {fileID: 1281121838}
   - component: {fileID: 1281121840}
   - component: {fileID: 1281121839}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: terreno_2 (6)
   m_TagString: map
   m_Icon: {fileID: 0}
@@ -30495,7 +30494,7 @@ GameObject:
   - component: {fileID: 1290032380}
   - component: {fileID: 1290032382}
   - component: {fileID: 1290032381}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: terreno_2 (7)
   m_TagString: map
   m_Icon: {fileID: 0}
@@ -30592,7 +30591,7 @@ GameObject:
   - component: {fileID: 1294442454}
   - component: {fileID: 1294442456}
   - component: {fileID: 1294442455}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: terreno_2 (16)
   m_TagString: map
   m_Icon: {fileID: 0}
@@ -30689,7 +30688,7 @@ GameObject:
   - component: {fileID: 1295862456}
   - component: {fileID: 1295862458}
   - component: {fileID: 1295862457}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: terreno_1 (1)
   m_TagString: map
   m_Icon: {fileID: 0}
@@ -30786,7 +30785,7 @@ GameObject:
   - component: {fileID: 1297924424}
   - component: {fileID: 1297924426}
   - component: {fileID: 1297924425}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: terreno_1 (20)
   m_TagString: map
   m_Icon: {fileID: 0}
@@ -31368,7 +31367,7 @@ GameObject:
   - component: {fileID: 1314249858}
   - component: {fileID: 1314249860}
   - component: {fileID: 1314249859}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: terreno_1 (22)
   m_TagString: map
   m_Icon: {fileID: 0}
@@ -31893,7 +31892,7 @@ GameObject:
   - component: {fileID: 1339513663}
   - component: {fileID: 1339513665}
   - component: {fileID: 1339513664}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: terreno_2 (31)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -31990,7 +31989,7 @@ GameObject:
   - component: {fileID: 1349803932}
   - component: {fileID: 1349803934}
   - component: {fileID: 1349803933}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: terreno_2 (28)
   m_TagString: map
   m_Icon: {fileID: 0}
@@ -32433,7 +32432,7 @@ GameObject:
   - component: {fileID: 1360568736}
   m_Layer: 8
   m_Name: Idleknight (9)
-  m_TagString: Untagged
+  m_TagString: player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -32447,7 +32446,8 @@ Transform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0.953, y: -2.95, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
+  m_Children:
+  - {fileID: 717359874}
   m_Father: {fileID: 305739827}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -32548,7 +32548,7 @@ MonoBehaviour:
   floor:
     serializedVersion: 2
     m_Bits: 256
-  foot: {fileID: 1094154010}
+  foot: {fileID: 717359874}
   maxJump: 60
   Speed: 0
 --- !u!61 &1360568739
@@ -32809,7 +32809,7 @@ GameObject:
   - component: {fileID: 1375707368}
   - component: {fileID: 1375707370}
   - component: {fileID: 1375707369}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: terreno_2 (19)
   m_TagString: map
   m_Icon: {fileID: 0}
@@ -32906,7 +32906,7 @@ GameObject:
   - component: {fileID: 1378018906}
   - component: {fileID: 1378018908}
   - component: {fileID: 1378018907}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: terreno_1 (14)
   m_TagString: map
   m_Icon: {fileID: 0}
@@ -33197,7 +33197,7 @@ GameObject:
   - component: {fileID: 1400162673}
   - component: {fileID: 1400162675}
   - component: {fileID: 1400162674}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: terreno_2 (24)
   m_TagString: map
   m_Icon: {fileID: 0}
@@ -33391,7 +33391,7 @@ GameObject:
   - component: {fileID: 1404987517}
   - component: {fileID: 1404987519}
   - component: {fileID: 1404987518}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: terreno_1 (30)
   m_TagString: map
   m_Icon: {fileID: 0}
@@ -33488,7 +33488,7 @@ GameObject:
   - component: {fileID: 1410367206}
   - component: {fileID: 1410367208}
   - component: {fileID: 1410367207}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: terreno_2 (1)
   m_TagString: map
   m_Icon: {fileID: 0}
@@ -33682,7 +33682,7 @@ GameObject:
   - component: {fileID: 1413487687}
   - component: {fileID: 1413487689}
   - component: {fileID: 1413487688}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: terreno_1 (28)
   m_TagString: map
   m_Icon: {fileID: 0}
@@ -34458,7 +34458,7 @@ GameObject:
   - component: {fileID: 1442869375}
   - component: {fileID: 1442869377}
   - component: {fileID: 1442869376}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: terreno_2 (20)
   m_TagString: map
   m_Icon: {fileID: 0}
@@ -34555,7 +34555,7 @@ GameObject:
   - component: {fileID: 1442928272}
   - component: {fileID: 1442928274}
   - component: {fileID: 1442928273}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: terreno_1
   m_TagString: map
   m_Icon: {fileID: 0}
@@ -34817,7 +34817,7 @@ GameObject:
   - component: {fileID: 1470247060}
   - component: {fileID: 1470247062}
   - component: {fileID: 1470247061}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: terreno_1 (4)
   m_TagString: map
   m_Icon: {fileID: 0}
@@ -34914,7 +34914,7 @@ GameObject:
   - component: {fileID: 1472726823}
   - component: {fileID: 1472726825}
   - component: {fileID: 1472726824}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: terreno_2 (12)
   m_TagString: map
   m_Icon: {fileID: 0}
@@ -35108,7 +35108,7 @@ GameObject:
   - component: {fileID: 1479801522}
   - component: {fileID: 1479801524}
   - component: {fileID: 1479801523}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: terreno_2 (21)
   m_TagString: map
   m_Icon: {fileID: 0}
@@ -35302,7 +35302,7 @@ GameObject:
   - component: {fileID: 1483999958}
   - component: {fileID: 1483999960}
   - component: {fileID: 1483999959}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: terreno_1 (14)
   m_TagString: map
   m_Icon: {fileID: 0}
@@ -35884,7 +35884,7 @@ GameObject:
   - component: {fileID: 1500338978}
   - component: {fileID: 1500338980}
   - component: {fileID: 1500338979}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: terreno_2
   m_TagString: map
   m_Icon: {fileID: 0}
@@ -35981,7 +35981,7 @@ GameObject:
   - component: {fileID: 1503200027}
   - component: {fileID: 1503200029}
   - component: {fileID: 1503200028}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: terreno_1 (31)
   m_TagString: map
   m_Icon: {fileID: 0}
@@ -36078,7 +36078,7 @@ GameObject:
   - component: {fileID: 1503941869}
   - component: {fileID: 1503941871}
   - component: {fileID: 1503941870}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: terreno_1 (10)
   m_TagString: map
   m_Icon: {fileID: 0}
@@ -36466,7 +36466,7 @@ GameObject:
   - component: {fileID: 1510678291}
   - component: {fileID: 1510678293}
   - component: {fileID: 1510678292}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: terreno_1 (10)
   m_TagString: map
   m_Icon: {fileID: 0}
@@ -36660,7 +36660,7 @@ GameObject:
   - component: {fileID: 1516450216}
   - component: {fileID: 1516450218}
   - component: {fileID: 1516450217}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: terreno_1 (26)
   m_TagString: map
   m_Icon: {fileID: 0}
@@ -36757,7 +36757,7 @@ GameObject:
   - component: {fileID: 1518059210}
   - component: {fileID: 1518059212}
   - component: {fileID: 1518059211}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: terreno_1 (16)
   m_TagString: map
   m_Icon: {fileID: 0}
@@ -37727,7 +37727,7 @@ GameObject:
   - component: {fileID: 1543169584}
   - component: {fileID: 1543169586}
   - component: {fileID: 1543169585}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: terreno_2 (14)
   m_TagString: map
   m_Icon: {fileID: 0}
@@ -38018,7 +38018,7 @@ GameObject:
   - component: {fileID: 1561054794}
   - component: {fileID: 1561054796}
   - component: {fileID: 1561054795}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: terreno_2 (29)
   m_TagString: map
   m_Icon: {fileID: 0}
@@ -38697,7 +38697,7 @@ GameObject:
   - component: {fileID: 1587139023}
   - component: {fileID: 1587139025}
   - component: {fileID: 1587139024}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: terreno_2 (5)
   m_TagString: map
   m_Icon: {fileID: 0}
@@ -39279,7 +39279,7 @@ GameObject:
   - component: {fileID: 1626686480}
   - component: {fileID: 1626686482}
   - component: {fileID: 1626686481}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: terreno_2 (15)
   m_TagString: map
   m_Icon: {fileID: 0}
@@ -39715,7 +39715,7 @@ GameObject:
   - component: {fileID: 1639389727}
   - component: {fileID: 1639389729}
   - component: {fileID: 1639389728}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: terreno_2 (3)
   m_TagString: map
   m_Icon: {fileID: 0}
@@ -39909,7 +39909,7 @@ GameObject:
   - component: {fileID: 1650728927}
   - component: {fileID: 1650728929}
   - component: {fileID: 1650728928}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: terreno_1 (17)
   m_TagString: map
   m_Icon: {fileID: 0}
@@ -40006,7 +40006,7 @@ GameObject:
   - component: {fileID: 1657711434}
   - component: {fileID: 1657711436}
   - component: {fileID: 1657711435}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: terreno_1 (19)
   m_TagString: map
   m_Icon: {fileID: 0}
@@ -40449,7 +40449,7 @@ GameObject:
   - component: {fileID: 1662200618}
   - component: {fileID: 1662200620}
   - component: {fileID: 1662200619}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: terreno_2 (11)
   m_TagString: map
   m_Icon: {fileID: 0}
@@ -40740,7 +40740,7 @@ GameObject:
   - component: {fileID: 1672545690}
   - component: {fileID: 1672545692}
   - component: {fileID: 1672545691}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: terreno_2 (27)
   m_TagString: map
   m_Icon: {fileID: 0}
@@ -40934,7 +40934,7 @@ GameObject:
   - component: {fileID: 1682429435}
   - component: {fileID: 1682429437}
   - component: {fileID: 1682429436}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: terreno_1 (1)
   m_TagString: map
   m_Icon: {fileID: 0}
@@ -41225,7 +41225,7 @@ GameObject:
   - component: {fileID: 1705485130}
   - component: {fileID: 1705485132}
   - component: {fileID: 1705485131}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: terreno_2 (5)
   m_TagString: map
   m_Icon: {fileID: 0}
@@ -41419,7 +41419,7 @@ GameObject:
   - component: {fileID: 1711683759}
   - component: {fileID: 1711683761}
   - component: {fileID: 1711683760}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: terreno_2 (2)
   m_TagString: map
   m_Icon: {fileID: 0}
@@ -42001,7 +42001,7 @@ GameObject:
   - component: {fileID: 1734510228}
   - component: {fileID: 1734510230}
   - component: {fileID: 1734510229}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: terreno_2 (17)
   m_TagString: map
   m_Icon: {fileID: 0}
@@ -42292,7 +42292,7 @@ GameObject:
   - component: {fileID: 1748545000}
   - component: {fileID: 1748545002}
   - component: {fileID: 1748545001}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: terreno_2 (22)
   m_TagString: map
   m_Icon: {fileID: 0}
@@ -42486,7 +42486,7 @@ GameObject:
   - component: {fileID: 1749506694}
   - component: {fileID: 1749506696}
   - component: {fileID: 1749506695}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: terreno_2 (6)
   m_TagString: map
   m_Icon: {fileID: 0}
@@ -42583,7 +42583,7 @@ GameObject:
   - component: {fileID: 1749775449}
   - component: {fileID: 1749775451}
   - component: {fileID: 1749775450}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: terreno_2 (11)
   m_TagString: map
   m_Icon: {fileID: 0}
@@ -42679,7 +42679,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1755562459}
   - component: {fileID: 1755562458}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: terreno1
   m_TagString: map
   m_Icon: {fileID: 0}
@@ -43203,7 +43203,7 @@ GameObject:
   - component: {fileID: 1770567164}
   - component: {fileID: 1770567166}
   - component: {fileID: 1770567165}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: terreno_2 (18)
   m_TagString: map
   m_Icon: {fileID: 0}
@@ -43397,7 +43397,7 @@ GameObject:
   - component: {fileID: 1778285172}
   - component: {fileID: 1778285174}
   - component: {fileID: 1778285173}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: terreno_2 (7)
   m_TagString: map
   m_Icon: {fileID: 0}
@@ -43494,7 +43494,7 @@ GameObject:
   - component: {fileID: 1785095135}
   - component: {fileID: 1785095137}
   - component: {fileID: 1785095136}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: terreno_2 (14)
   m_TagString: map
   m_Icon: {fileID: 0}
@@ -43688,7 +43688,7 @@ GameObject:
   - component: {fileID: 1787529013}
   - component: {fileID: 1787529015}
   - component: {fileID: 1787529014}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: terreno_2 (13)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -43785,7 +43785,7 @@ GameObject:
   - component: {fileID: 1790528686}
   - component: {fileID: 1790528688}
   - component: {fileID: 1790528687}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: terreno_2 (16)
   m_TagString: map
   m_Icon: {fileID: 0}
@@ -43882,7 +43882,7 @@ GameObject:
   - component: {fileID: 1799115217}
   - component: {fileID: 1799115219}
   - component: {fileID: 1799115218}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: terreno_2 (1)
   m_TagString: map
   m_Icon: {fileID: 0}
@@ -43979,7 +43979,7 @@ GameObject:
   - component: {fileID: 1800276400}
   - component: {fileID: 1800276402}
   - component: {fileID: 1800276401}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: terreno_2 (18)
   m_TagString: map
   m_Icon: {fileID: 0}
@@ -44173,7 +44173,7 @@ GameObject:
   - component: {fileID: 1812918151}
   - component: {fileID: 1812918153}
   - component: {fileID: 1812918152}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: terreno_2 (30)
   m_TagString: map
   m_Icon: {fileID: 0}
@@ -44548,7 +44548,7 @@ GameObject:
   - component: {fileID: 1821986020}
   - component: {fileID: 1821986022}
   - component: {fileID: 1821986021}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: terreno_2 (5)
   m_TagString: map
   m_Icon: {fileID: 0}
@@ -44936,7 +44936,7 @@ GameObject:
   - component: {fileID: 1831612459}
   - component: {fileID: 1831612461}
   - component: {fileID: 1831612460}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: terreno_1 (22)
   m_TagString: map
   m_Icon: {fileID: 0}
@@ -45130,7 +45130,7 @@ GameObject:
   - component: {fileID: 1842417428}
   - component: {fileID: 1842417430}
   - component: {fileID: 1842417429}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: terreno_1 (2)
   m_TagString: map
   m_Icon: {fileID: 0}
@@ -46197,7 +46197,7 @@ GameObject:
   - component: {fileID: 1876189947}
   - component: {fileID: 1876189949}
   - component: {fileID: 1876189948}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: terreno_2 (10)
   m_TagString: map
   m_Icon: {fileID: 0}
@@ -46973,7 +46973,7 @@ GameObject:
   - component: {fileID: 1904615240}
   - component: {fileID: 1904615242}
   - component: {fileID: 1904615241}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: terreno_1 (17)
   m_TagString: map
   m_Icon: {fileID: 0}
@@ -47070,7 +47070,7 @@ GameObject:
   - component: {fileID: 1906245644}
   - component: {fileID: 1906245646}
   - component: {fileID: 1906245645}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: terreno_1 (5)
   m_TagString: map
   m_Icon: {fileID: 0}
@@ -48040,7 +48040,7 @@ GameObject:
   - component: {fileID: 1952520296}
   - component: {fileID: 1952520298}
   - component: {fileID: 1952520297}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: terreno_1 (6)
   m_TagString: map
   m_Icon: {fileID: 0}
@@ -48137,7 +48137,7 @@ GameObject:
   - component: {fileID: 1952789087}
   - component: {fileID: 1952789089}
   - component: {fileID: 1952789088}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: terreno_2 (27)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -48790,7 +48790,7 @@ GameObject:
   - component: {fileID: 1969630095}
   - component: {fileID: 1969630097}
   - component: {fileID: 1969630096}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: terreno_1 (25)
   m_TagString: map
   m_Icon: {fileID: 0}
@@ -48887,7 +48887,7 @@ GameObject:
   - component: {fileID: 1970491823}
   - component: {fileID: 1970491825}
   - component: {fileID: 1970491824}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: terreno_2 (9)
   m_TagString: map
   m_Icon: {fileID: 0}
@@ -48984,7 +48984,7 @@ GameObject:
   - component: {fileID: 1970570460}
   - component: {fileID: 1970570462}
   - component: {fileID: 1970570461}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: terreno_2 (8)
   m_TagString: map
   m_Icon: {fileID: 0}
@@ -49566,7 +49566,7 @@ GameObject:
   - component: {fileID: 2006390147}
   - component: {fileID: 2006390149}
   - component: {fileID: 2006390148}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: terreno_2 (25)
   m_TagString: map
   m_Icon: {fileID: 0}
@@ -49663,7 +49663,7 @@ GameObject:
   - component: {fileID: 2030633930}
   - component: {fileID: 2030633932}
   - component: {fileID: 2030633931}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: terreno_2 (22)
   m_TagString: map
   m_Icon: {fileID: 0}
@@ -49857,7 +49857,7 @@ GameObject:
   - component: {fileID: 2031781845}
   - component: {fileID: 2031781847}
   - component: {fileID: 2031781846}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: terreno_2 (10)
   m_TagString: map
   m_Icon: {fileID: 0}
@@ -50245,7 +50245,7 @@ GameObject:
   - component: {fileID: 2053245347}
   - component: {fileID: 2053245349}
   - component: {fileID: 2053245348}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: terreno_2 (19)
   m_TagString: map
   m_Icon: {fileID: 0}
@@ -50439,7 +50439,7 @@ GameObject:
   - component: {fileID: 2054738818}
   - component: {fileID: 2054738820}
   - component: {fileID: 2054738819}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: terreno_2
   m_TagString: map
   m_Icon: {fileID: 0}
@@ -51089,7 +51089,7 @@ GameObject:
   - component: {fileID: 2084208375}
   - component: {fileID: 2084208377}
   - component: {fileID: 2084208376}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: terreno_2 (21)
   m_TagString: map
   m_Icon: {fileID: 0}
@@ -51477,7 +51477,7 @@ GameObject:
   - component: {fileID: 2091875068}
   - component: {fileID: 2091875070}
   - component: {fileID: 2091875069}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: terreno_2 (23)
   m_TagString: map
   m_Icon: {fileID: 0}
@@ -51768,7 +51768,7 @@ GameObject:
   - component: {fileID: 2114509028}
   - component: {fileID: 2114509030}
   - component: {fileID: 2114509029}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: terreno_2 (22)
   m_TagString: map
   m_Icon: {fileID: 0}
@@ -51865,7 +51865,7 @@ GameObject:
   - component: {fileID: 2114857960}
   - component: {fileID: 2114857962}
   - component: {fileID: 2114857961}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: terreno_2 (30)
   m_TagString: map
   m_Icon: {fileID: 0}
@@ -52059,7 +52059,7 @@ GameObject:
   - component: {fileID: 2131256543}
   - component: {fileID: 2131256545}
   - component: {fileID: 2131256544}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: terreno_1 (15)
   m_TagString: map
   m_Icon: {fileID: 0}
@@ -52350,7 +52350,7 @@ GameObject:
   - component: {fileID: 2146075115}
   - component: {fileID: 2146075117}
   - component: {fileID: 2146075116}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: terreno_2 (29)
   m_TagString: map
   m_Icon: {fileID: 0}
