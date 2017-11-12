@@ -89,9 +89,7 @@
     <Compile Include="Assets\Scripts\paisajeTest\PointerController.cs" />
     <Compile Include="Assets\Scripts\paisajeTest\scriptTimer.cs" />
     <Compile Include="Assets\Scripts\pantallaInici\ExitButtonPressed.cs" />
-    <Compile Include="Assets\Scripts\pantallaInici\LeftButtonPlayers.cs" />
     <Compile Include="Assets\Scripts\pantallaInici\NewGameButtonPressed.cs" />
-    <Compile Include="Assets\Scripts\pantallaInici\RightButtonPlayers.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />
