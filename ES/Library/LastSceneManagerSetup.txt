@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/pantallaInici.unity
+- path: Assets/Scenes/select2Players.unity
   isLoaded: 1
   isActive: 1
