@@ -8,9 +8,9 @@ public class nextP1 : MonoBehaviour {
 	public GameObject personaje1;
 	public GameObject personaje2;
 
-	public void P1UpClicked() {
-		SceneManager.LoadScene (1);
-	}
+	//public void P1UpClicked() {
+	//	SceneManager.LoadScene (1);
+	//}
 
 	public void OnMouseDown() {
 
