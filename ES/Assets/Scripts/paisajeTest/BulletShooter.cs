@@ -23,6 +23,13 @@ public class BulletShooter : MonoBehaviour {
 
 	// Update is called once per frame
 	void Update () {
+		if (shooting) {
+			if (bullet != null) {
+				Vector2 dir = bullet.GetComponent<Rigidbody2D> ().velocity;
+				float angle = Mathf.Atan2 (dir.y, dir.x) * Mathf.Rad2Deg;
+				bullet.transform.rotation = Quaternion.AngleAxis (angle, Vector3.forward);
+			}
+		}
 		if (GetComponent<PlayerModel> ().turno) {
 			powerBar.SetActive (true);
 			if (Input.GetKeyDown (KeyCode.LeftShift)) {
@@ -39,14 +46,7 @@ public class BulletShooter : MonoBehaviour {
 				velocity = Mathf.Clamp (velocity, 0, 128);
 				powerBarTexture.pixelInset = new Rect (transform.position.x, transform.position.y, velocity, 10);
 			}
-
-			if (shooting) {
-				if (bullet != null) {
-					Vector2 dir = bullet.GetComponent<Rigidbody2D> ().velocity;
-					float angle = Mathf.Atan2 (dir.y, dir.x) * Mathf.Rad2Deg;
-					bullet.transform.rotation = Quaternion.AngleAxis (angle, Vector3.forward);
-				}
-			}
+				
 		} else {
 			powerBar.SetActive (false);
 		}
