@@ -8,7 +8,7 @@ public class scriptTimer : MonoBehaviour {
 	public Text contador;
 	public Text fin;
 	////private float tiempo;
-	private float tiempo=20f;
+	public float tiempo=20f;
 
 	// Use this for initialization
 	void Start () {
@@ -26,7 +26,7 @@ public class scriptTimer : MonoBehaviour {
 		if (tiempo <= 0) 
 		{
 			contador.text = "00";
-			fin.enabled = true;
+			GetComponent<GameController> ().changeTurn();
 
 		}
 		//float t = Time.time - tiempo;

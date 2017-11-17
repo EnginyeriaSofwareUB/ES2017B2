@@ -22,9 +22,14 @@ GameObject:
   - component: {fileID: 212784749417009304}
   - component: {fileID: 95257439083942848}
   - component: {fileID: 61975467059226352}
-  m_Layer: 0
+  - component: {fileID: 50545117339243232}
+  - component: {fileID: 114016434159234622}
+  - component: {fileID: 114816702192195098}
+  - component: {fileID: 114632243474460792}
+  - component: {fileID: 114223333955943642}
+  m_Layer: 8
   m_Name: Knight
-  m_TagString: Untagged
+  m_TagString: player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -42,6 +47,26 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!50 &50545117339243232
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1843568582817114}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 4
 --- !u!61 &61975467059226352
 BoxCollider2D:
   m_ObjectHideFlags: 1
@@ -84,6 +109,69 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
+--- !u!114 &114016434159234622
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1843568582817114}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82b04dc21f987a341a67a5dd8b44dc34, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxSpeed: 20
+  touchFloor: 0
+  Grounded: 0
+  radio: 0.8
+  floor:
+    serializedVersion: 2
+    m_Bits: 0
+  foot: {fileID: 4839070259435690, guid: 75d05a5da3ef5654c8b174565e4caed4, type: 2}
+  maxJump: 25
+  Speed: 0
+--- !u!114 &114223333955943642
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1843568582817114}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b9bd57b7f696edc468c7545dbb7d5686, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  vida: 0
+  turno: 0
+--- !u!114 &114632243474460792
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1843568582817114}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 653332067e8544b06aa59debd1a46080, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pointer: {fileID: 1874841273862878, guid: 0206d07d62751460888ab0ceafbd549d, type: 2}
+  angle: 0
+  pointerPosition: {x: 0, y: 0, z: 0}
+--- !u!114 &114816702192195098
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1843568582817114}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62834261b483945f39d52dedd5c6ead7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  projectile: {fileID: 1985433790540248, guid: d243b3a8f8c104d4784596c359ff1495, type: 2}
+  powerBar: {fileID: 1770309165478984, guid: 9f97d9cf7f98c4ee59785d4290bd93a0, type: 2}
+  velocity: 0
+  offset: {x: 0.4, y: 0.1}
 --- !u!212 &212784749417009304
 SpriteRenderer:
   m_ObjectHideFlags: 1

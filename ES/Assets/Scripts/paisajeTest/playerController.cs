@@ -32,32 +32,35 @@ public class playerController : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 
-      float Direction = Input.GetAxis("Horizontal");
-      //float energyPlayer = GetComponent<EnergyBar>().energy;
-      if(Direction != 0 && playerEnergy > 0.0f ){ // comprobamos si el usuario quiere moverse horizontalmente
-        energyBar.SendMessage("TakeEnergy",3);//llama al metododel script energyBar y le resta la cantidad que pasamos.
-        Body.velocity = new Vector2(Direction * maxSpeed, Body.velocity.y);
-      }
+		if (GetComponent<PlayerModel> ().turno) {
 
-      touchFloor = Physics2D.OverlapCircle(foot.position, radio, floor);
-      Speed = Direction;
-      Grounded = touchFloor;
+			float Direction = Input.GetAxis ("Horizontal");
+			//float energyPlayer = GetComponent<EnergyBar>().energy;
+			if (Direction != 0 && playerEnergy > 0.0f) { // comprobamos si el usuario quiere moverse horizontalmente
+				energyBar.SendMessage ("TakeEnergy", 3);//llama al metododel script energyBar y le resta la cantidad que pasamos.
+				Body.velocity = new Vector2 (Direction * maxSpeed, Body.velocity.y);
+			}
 
-      //Para que el personaje gire
-      if(Direction > 0){
-        transform.localScale = new Vector3(1,1,1);
-      }else if(Direction < 0){
-        transform.localScale = new Vector3(-1,1,1);
-      }
+			touchFloor = Physics2D.OverlapCircle (foot.position, radio, floor);
+			Speed = Direction;
+			Grounded = touchFloor;
 
-      //Cuando toque el suelo
-      if(touchFloor){
-          if(Input.GetKeyDown (KeyCode.Space)){
-              Body.AddForce(new Vector2(0,maxJump * 10));
-        }
-      }
+			//Para que el personaje gire
+			if (Direction > 0) {
+				transform.localScale = new Vector3 (1, 1, 1);
+			} else if (Direction < 0) {
+				transform.localScale = new Vector3 (-1, 1, 1);
+			}
 
-      //actualizamos la energia del jugador
-      playerEnergy = energyBar.GetComponent<EnergyBar>().energy;
-    }
+			//Cuando toque el suelo
+			if (touchFloor) {
+				if (Input.GetKeyDown (KeyCode.Space)) {
+					Body.AddForce (new Vector2 (0, maxJump * 10));
+				}
+			}
+
+			//actualizamos la energia del jugador
+			playerEnergy = energyBar.GetComponent<EnergyBar> ().energy;
+		}
+	}
 }
