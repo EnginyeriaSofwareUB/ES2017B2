@@ -51,8 +51,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Bu.cs" />
-     <Compile Include="Assets\leftButtonPressed.cs" />
      <Compile Include="Assets\playerCollision.cs" />
      <Compile Include="Assets\Scripts\paisajeTest\BulletShooter.cs" />
      <Compile Include="Assets\Scripts\paisajeTest\camaraP1.cs" />
@@ -60,6 +58,7 @@
      <Compile Include="Assets\Scripts\paisajeTest\GameController.cs" />
      <Compile Include="Assets\Scripts\paisajeTest\GroundController.cs" />
      <Compile Include="Assets\Scripts\paisajeTest\HealthBar.cs" />
+     <Compile Include="Assets\Scripts\paisajeTest\MapLimitController.cs" />
      <Compile Include="Assets\Scripts\paisajeTest\playerController.cs" />
      <Compile Include="Assets\Scripts\paisajeTest\PlayerModel.cs" />
      <Compile Include="Assets\Scripts\paisajeTest\PointerController.cs" />

@@ -10,6 +10,9 @@ TagManager:
   - Jugador1
   - Jugador2
   - Jugador3
+  - water
+  - limit
+  - bullet
   layers:
   - Default
   - TransparentFX

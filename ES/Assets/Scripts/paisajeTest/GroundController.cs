@@ -8,6 +8,11 @@ public class GroundController : MonoBehaviour {
 		if (col.tag == "map") {
 			Destroy (gameObject);
 			Destroy (col.gameObject);
+		} else if (col.tag == "water") {
+			Vector2 dir = new Vector2(0,-1);
+			float angle = Mathf.Atan2 (dir.y, dir.x) * Mathf.Rad2Deg;
+			transform.rotation = Quaternion.AngleAxis (angle, Vector3.forward);
+			transform.GetComponent<Rigidbody2D> ().velocity = dir;
 		}
 	}
 
