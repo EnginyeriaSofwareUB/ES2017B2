@@ -1,17 +1,4 @@
-OSXStandalone
-e335a59781ee417c1a105bec0246128d Assembly-CSharp.dll:.BulletShooter
-5863d5792291be94ef686a46c9ec6ada Assembly-CSharp.dll:.HealthBar
-05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.playerCollision
-e791ba022ed95fadc0b38a39ab831423 Assembly-CSharp.dll:.playerController
-05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.Bu
-2b5bd81c259c691324a17af9a3e97e85 Assembly-CSharp.dll:.camaraP1
-cdeaa50072194886a98ef08135a8224d Assembly-CSharp.dll:.PointerController
-4b0ac4a1984dcb82f0e20c300a716094 Assembly-CSharp.dll:.EnergyBar
-05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.ExitButtonPressed
-05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.NewGameButtonPressed
-05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.leftButtonPressed
-b3616c4ebef28ca89f16f562bbff8adc Assembly-CSharp.dll:.scriptTimer
-05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.GroundController
+WindowsStandalone
 bc68edb0af574bf79f9550ead8ebae5c UnityEngine.HoloLens.dll:UnityEngine.Audio.AudioSpatializerMicrosoft
 c2275a8bfbb9f9942cad75ecdfded41d UnityEngine.HoloLens.dll:UnityEngine.VR.WSA.SpatialMappingCollider
 45f3431f0103c41611e8d4eec3d439df UnityEngine.HoloLens.dll:UnityEngine.VR.WSA.SpatialMappingRenderer
@@ -142,9 +129,22 @@ c2275a8bfbb9f9942cad75ecdfded41d UnityEngine.HoloLens.dll:UnityEngine.VR.WSA.Spa
 45f3431f0103c41611e8d4eec3d439df UnityEngine.HoloLens.dll:UnityEngine.VR.WSA.SpatialMappingRenderer
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.HoloLens.dll:UnityEngine.EventSystems.HoloLensInput
 463516d5b5fe8e67a0a24c48f2095b04 UnityEngine.HoloLens.dll:UnityEngine.EventSystems.HoloLensInputModule
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.MapLimitController
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.GameController
 bded7fdf8428b8739ec5903d829bb48d Assembly-CSharp.dll:.nextP1
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.NewGameButtonPressed
+e335a59781ee417c1a105bec0246128d Assembly-CSharp.dll:.BulletShooter
+cdeaa50072194886a98ef08135a8224d Assembly-CSharp.dll:.PointerController
 bded7fdf8428b8739ec5903d829bb48d Assembly-CSharp.dll:.prevP1
+e791ba022ed95fadc0b38a39ab831423 Assembly-CSharp.dll:.playerController
+5863d5792291be94ef686a46c9ec6ada Assembly-CSharp.dll:.HealthBar
 bded7fdf8428b8739ec5903d829bb48d Assembly-CSharp.dll:.nextP2
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.GroundController
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.playerCollision
+2b5bd81c259c691324a17af9a3e97e85 Assembly-CSharp.dll:.camaraP1
 db47997ba3e474557cdb3bf9dd0665b1 Assembly-CSharp.dll:.PlayerModel
 bded7fdf8428b8739ec5903d829bb48d Assembly-CSharp.dll:.prevP2
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.ExitButtonPressed
+4b0ac4a1984dcb82f0e20c300a716094 Assembly-CSharp.dll:.EnergyBar
+b3616c4ebef28ca89f16f562bbff8adc Assembly-CSharp.dll:.scriptTimer
+28f2e6d1eed070c75d658fb7b6a475ef Assembly-CSharp.dll:.ScrollingBackground
