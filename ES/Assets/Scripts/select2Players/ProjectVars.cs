@@ -9,7 +9,7 @@ public class ProjectVars : Singleton<ProjectVars> {
 	public string player2;
 	public string player3;
 	public string player4;
-	public List<string> players = new List<string>{"Knight","Knight"};
+	public List<string> players = new List<string>{"Knight_red","Knight_blue"};
 
 
 	public static ProjectVars Instance {

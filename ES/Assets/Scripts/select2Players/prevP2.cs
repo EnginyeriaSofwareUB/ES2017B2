@@ -16,25 +16,25 @@ public class prevP2 : MonoBehaviour {
 				personaje2.SetActive (false);
 				personaje3.SetActive (false);
 				personaje4.SetActive (true);
-				ProjectVars.Instance.player2 = "Woman_warrior_2";
+				ProjectVars.Instance.player2 = "Woman_warrior_2_blue";
 			} else if (personaje2.activeSelf) {
 				personaje1.SetActive (true);
 				personaje2.SetActive (false);
 				personaje3.SetActive (false);
 				personaje4.SetActive (false);
-				ProjectVars.Instance.player2 = "Knight";
+				ProjectVars.Instance.player2 = "Knight_blue";
 			} else if (personaje3.activeSelf) {
 				personaje1.SetActive (false);
 				personaje2.SetActive (true);
 				personaje3.SetActive (false);
 				personaje4.SetActive (false);
-				ProjectVars.Instance.player2 = "Robot";
+				ProjectVars.Instance.player2 = "Robot_blue";
 			} else if (personaje4.activeSelf) {
 				personaje1.SetActive (false);
 				personaje2.SetActive (false);
 				personaje3.SetActive (true);
 				personaje4.SetActive (false);
-				ProjectVars.Instance.player2 = "Woman_warrior_1";
+				ProjectVars.Instance.player2 = "Woman_warrior_1_blue";
 			} 
 		}
 	}
