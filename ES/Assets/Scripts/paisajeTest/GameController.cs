@@ -8,12 +8,16 @@ public class GameController : MonoBehaviour {
 
 	//List<string> jugadores = new List<string>{"Knight","Woman_warrior_1"};
 	List<string> jugadores = ProjectVars.Instance.players;
+
+	//List<string> jugadores = new List<string>{"Knight","Woman_warrior_2_blue"};
 	int numeroJugador = 0;
 	private int turnoJugador = 0;
+	private GameObject energyBar; // variable apra gestionar la barra de energia
 
 	// Use this for initialization
 	void Start () {
 		Vector2 position = new Vector2 (-0.953f, 0f);
+		energyBar = GameObject.Find("EnergyBar");//Buscamos la referencia a la barra de energia
 		foreach(var namePrefab in jugadores )
 		{
 
@@ -32,17 +36,17 @@ public class GameController : MonoBehaviour {
 		camaraP1 camScript = camera.GetComponent<camaraP1> ();
 		camScript.player = player;
 		player.GetComponent<PlayerModel> ().turno = true;
-
-
 	}
 
 	public void changeTurn() {
+
+		energyBar.SendMessage("setEnergy",100f);
 		GameObject LastTurnPlayer = GameObject.FindGameObjectsWithTag (string.Concat("Jugador", turnoJugador.ToString()))[0];
 		LastTurnPlayer.GetComponent<PlayerModel> ().turno = false;
-
 		turnoJugador += 1;
 		if (turnoJugador > jugadores.Count-1) {
 			turnoJugador = 0;
+
 		}
 		GameObject player = GameObject.FindGameObjectsWithTag (string.Concat("Jugador", turnoJugador.ToString()))[0];
 		GameObject camera = GameObject.FindGameObjectsWithTag ("MainCamera")[0];
@@ -51,6 +55,8 @@ public class GameController : MonoBehaviour {
 		player.GetComponent<PlayerModel> ().turno = true;
 
 		GetComponent<scriptTimer> ().tiempo = 20f;
+
+
 	}
 
 	// Update is called once per frame
