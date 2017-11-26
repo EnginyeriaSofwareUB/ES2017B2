@@ -242,7 +242,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   projectile: {fileID: 1985433790540248, guid: d243b3a8f8c104d4784596c359ff1495, type: 2}
-  powerBar: {fileID: 1874841273862878, guid: 0206d07d62751460888ab0ceafbd549d, type: 2}
+  powerBar: {fileID: 1770309165478984, guid: 9f97d9cf7f98c4ee59785d4290bd93a0, type: 2}
   velocity: 0
   offset: {x: 0.4, y: 0.1}
 --- !u!114 &114035847913402126
@@ -353,7 +353,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 653332067e8544b06aa59debd1a46080, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pointer: {fileID: 1770309165478984, guid: 9f97d9cf7f98c4ee59785d4290bd93a0, type: 2}
+  pointer: {fileID: 1874841273862878, guid: 0206d07d62751460888ab0ceafbd549d, type: 2}
   angle: 0
   pointerPosition: {x: 0, y: 0, z: 0}
 --- !u!114 &114445313564602048
