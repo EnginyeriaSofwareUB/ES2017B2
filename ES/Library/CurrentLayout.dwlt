@@ -154,8 +154,8 @@ MonoBehaviour:
     y: 0
     width: 1527
     height: 534
-  m_MinSize: {x: 402, y: 221}
-  m_MaxSize: {x: 8002, y: 4021}
+  m_MinSize: {x: 406, y: 221}
+  m_MaxSize: {x: 8006, y: 4021}
   vertical: 0
   controlID: 25
 --- !u!114 &8
@@ -202,8 +202,8 @@ MonoBehaviour:
     y: 0
     width: 289
     height: 534
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 204, y: 221}
+  m_MaxSize: {x: 4004, y: 4021}
   m_ActualView: {fileID: 17}
   m_Panes:
   - {fileID: 17}
@@ -232,7 +232,7 @@ MonoBehaviour:
   m_MinSize: {x: 436, y: 271}
   m_MaxSize: {x: 14006, y: 10021}
   vertical: 0
-  controlID: 96
+  controlID: 77
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -331,8 +331,8 @@ MonoBehaviour:
   m_DepthBufferBits: 32
   m_Pos:
     serializedVersion: 2
-    x: 0
-    y: 19
+    x: 1366
+    y: 304
     width: 1178
     height: 392
   m_MaximizeOnPlay: 0
@@ -533,23 +533,23 @@ MonoBehaviour:
     height: 513
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 
+    m_SelectedIDs: 8c2a0000
     m_LastClickedID: 0
-    m_ExpandedIDs: 0ca9f0ffd2abf0ffc6aef0ff70b1f0ff34e9f0fffaebf0ffe8eef0ffe8f1f0ffba2bf1ffa62ef1ff8c3df1ff5840f1ff8272f1ff3675f1ff387bf1ff9033f2ff9233f2ffac33f2ffaed5f4ffb0d5f4ffccd5f4ffcee1f4ffec4bf6ff6268f6ff6468f6ff8068f6ffe08af6ff6c96f6ff9096f6ffaa96f6ff66cef6ff84cef6ff483bf7ff523bf7ff6a3bf7ff76c1f7ff34c4f7ffdec6f7ffc4c9f7ff9404f8ff0a07f8ff7e09f8ff880cf8ff2e52f8ff0855f8ffae57f8ff985af8ffe092f8ff5099f8ff9e9cf8ff9e9ff8ff00acf8ff02acf8ff80ebf8ffe4edf8ffa2f0f8ff2ef3f8ff2219f9ffea1bf9ffdc1ef9ff1a2bf9ff7643f9ff2254f9ff006cf9ff287ef9ff129ef9ff28adf9ffe2c0f9ff9acef9ffbacef9ff7408fcffe43cfcfffa42fcffbef1fffff2f1ffff36f9ffff00000000fc470000
+    m_ExpandedIDs: caf5ffff00000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: Robot_blue (1)
-      m_OriginalName: Robot_blue (1)
+      m_Name: 
+      m_OriginalName: 
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: -968044
+      m_UserData: 0
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 4
+      m_OriginalEventType: 11
       m_IsRenamingFilename: 0
       m_ClientGUIView: {fileID: 9}
     m_SearchString: 
@@ -606,8 +606,8 @@ MonoBehaviour:
   m_DepthBufferBits: 0
   m_Pos:
     serializedVersion: 2
-    x: 1182
-    y: 19
+    x: 2548
+    y: 304
     width: 343
     height: 392
   m_SearchFilter:
@@ -633,7 +633,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: f6250000
     m_LastClickedID: 9718
-    m_ExpandedIDs: 00000000002c0000542d00003c2f00007c2f000052300000283100005a320000603200003a33000050330000be3300000e34000002370000dc380000de380000e0380000e2380000e4380000
+    m_ExpandedIDs: 00000000e40500008230000084310000ae310000c03100002832000098320000a03200003a3300003e330000ba330000ca3300000834000072350000ee3500003e360000024800000448000006480000084800000a4800000c4800000e4800001048000012480000144800001648000018480000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -661,21 +661,21 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 34ebf4ff08bef6ff1674f8ff84a5f8fffacaf9ff54d6f9ff00000000002c0000542d00003c2f00007c2f00009e2f00005230000028310000383100005a320000603200003a33000050330000be3300002c360000023700003037000082370000dc380000de380000e0380000e2380000e4380000
+    m_ExpandedIDs: 00000000e40500008230000084310000ae310000c03100002832000098320000a03200003a3300003e330000ba330000ca3300000834000072350000ee3500003e360000024800000448000006480000084800000a4800000c4800000e4800001048000012480000144800001648000018480000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: Woman_warrior_2_red
-      m_OriginalName: Woman_warrior_2_red
+      m_Name: 
+      m_OriginalName: 
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: -1015946
+      m_UserData: 0
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 4
+      m_OriginalEventType: 11
       m_IsRenamingFilename: 1
       m_ClientGUIView: {fileID: 12}
     m_SearchString: 
@@ -742,7 +742,7 @@ MonoBehaviour:
     y: -230
     width: 391
     height: 926
-  m_ScrollPosition: {x: 0, y: 0}
+  m_ScrollPosition: {x: 0, y: 600}
   m_InspectorMode: 0
   m_PreviewResizer:
     m_CachedPref: -160
