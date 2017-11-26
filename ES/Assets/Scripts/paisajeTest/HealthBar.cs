@@ -7,6 +7,7 @@ public class HealthBar : MonoBehaviour {
 	public Image health;
 	float hp;//vida del jugador
 	float maxHp = 100f;//vida inicial de la partoda
+
 	// Use this for initialization
 	void Start () {
 		hp = maxHp; // al principio del juego tendra la maxima vida el jugador

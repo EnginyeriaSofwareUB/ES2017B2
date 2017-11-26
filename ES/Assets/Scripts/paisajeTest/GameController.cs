@@ -6,7 +6,7 @@ public class GameController : MonoBehaviour {
 
 	//array con todos los jugadores
 
-	List<string> jugadores = new List<string>{"Knight_blue","Woman_warrior_2_blue"};
+	List<string> jugadores = new List<string>{"Knight","Woman_warrior_2_blue"};
 	int numeroJugador = 0;
 	private int turnoJugador = 0;
 	private GameObject energyBar; // variable apra gestionar la barra de energia
