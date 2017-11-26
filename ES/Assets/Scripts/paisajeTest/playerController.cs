@@ -62,5 +62,6 @@ public class playerController : MonoBehaviour {
 			//actualizamos la energia del jugador
 			playerEnergy = energyBar.GetComponent<EnergyBar> ().energy;
 		}
+    
 	}
 }
