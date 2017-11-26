@@ -23,6 +23,7 @@ public class playerController : MonoBehaviour {
     private GameObject energyBar; // variable apra gestionar la barra de energia
     private float playerEnergy;
 
+
 	// Use this for initialization
 	void Start () {
         Body = GetComponent<Rigidbody2D>();
@@ -62,5 +63,6 @@ public class playerController : MonoBehaviour {
 			//actualizamos la energia del jugador
 			playerEnergy = energyBar.GetComponent<EnergyBar> ().energy;
 		}
+
 	}
 }
