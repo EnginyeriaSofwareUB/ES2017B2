@@ -1,11 +1,20 @@
-﻿<Properties StartupItem="ES.csproj">
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\paisajeTest\PointerController.cs">
+﻿<Properties StartupItem="Assembly-CSharp.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\paisajeTest\GameController.cs">
     <Files>
       <File FileName="Assets\Scripts\paisajeTest\BulletShooter.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\paisajeTest\playerController.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\paisajeTest\PointerController.cs" Line="51" Column="1" />
+      <File FileName="Assets\Scripts\paisajeTest\PointerController.cs" Line="21" Column="1" />
       <File FileName="Assets\Scripts\paisajeTest\GroundController.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\select2Players\nextP1.cs" Line="40" Column="4" />
+      <File FileName="Assets\Scripts\select2Players\ProjectVars.cs" Line="12" Column="65" />
+      <File FileName="Assets\Scripts\select2Players\playGame.cs" Line="19" Column="3" />
+      <File FileName="Assets\Scripts\select2Players\Singleton.cs" Line="19" Column="85" />
+      <File FileName="Assets\Scripts\select2Players\prevP1.cs" Line="38" Column="4" />
+      <File FileName="Assets\Scripts\select2Players\nextP2.cs" Line="38" Column="4" />
+      <File FileName="Assets\Scripts\select2Players\prevP2.cs" Line="38" Column="4" />
+      <File FileName="Assets\Scripts\paisajeTest\GameController.cs" Line="10" Column="2" />
+      <File FileName="Assets\Scripts\pantallaInici\NewGameButtonPressed.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
