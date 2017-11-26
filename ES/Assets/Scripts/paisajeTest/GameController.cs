@@ -6,7 +6,8 @@ public class GameController : MonoBehaviour {
 
 	//array con todos los jugadores
 
-	List<string> jugadores = new List<string>{"Knight","Woman_warrior_1"};
+	//List<string> jugadores = new List<string>{"Knight","Woman_warrior_1"};
+	List<string> jugadores = ProjectVars.Instance.players;
 	int numeroJugador = 0;
 	private int turnoJugador = 0;
 
