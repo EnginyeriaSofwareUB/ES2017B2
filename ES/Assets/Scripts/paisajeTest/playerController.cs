@@ -12,22 +12,22 @@ public class playerController : MonoBehaviour {
 
     //Variables para el salto
     public bool touchFloor; //Nos indicará si el player esta tocando el suelo
-    public bool Grounded;
-    public float radio = 0.8f;
+    private float radio = 0.2f;
     public LayerMask floor;
     public Transform foot;
     public float maxJump = 25f;//fuerza de salto
 
-    public float Speed;
-
     private GameObject energyBar; // variable apra gestionar la barra de energia
     private float playerEnergy;
+
+	private Animator animator;
 
 
 	// Use this for initialization
 	void Start () {
         Body = GetComponent<Rigidbody2D>();
         energyBar = GameObject.Find("EnergyBar");
+		animator = GetComponent<Animator> ();
 	}
 
 	// Update is called once per frame
@@ -43,8 +43,8 @@ public class playerController : MonoBehaviour {
 			}
 
 			touchFloor = Physics2D.OverlapCircle (foot.position, radio, floor);
-			Speed = Direction;
-			Grounded = touchFloor;
+			animator.SetBool ("Grounded", touchFloor);
+			animator.SetFloat ("Speed", Mathf.Abs (Direction));
 
 			//Para que el personaje gire
 			if (Direction > 0) {
