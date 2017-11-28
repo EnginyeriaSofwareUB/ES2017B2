@@ -5,12 +5,14 @@ public class ProjectVars : Singleton<ProjectVars> {
 
 	//Variables para instanciar
 	public string StringActiveBetweenScenes;
-	public string player1;
-	public string player2;
-	public string player3;
-	public string player4;
-	public List<string> players = new List<string>{"Knight_red","Knight_blue"};
+	public Dictionary<string, string> playersPrefabs = new Dictionary<string, string>(){
+		{"Jugador0","Knight"},
+		{"Jugador1","Knight"},
+		{"Jugador2","Knight"},
+		{"Jugador3","Knight"}
+	};
 
+	public List<string> players = new List<string>();
 
 	public static ProjectVars Instance {
 		get {

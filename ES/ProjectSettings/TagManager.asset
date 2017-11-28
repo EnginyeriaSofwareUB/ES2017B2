@@ -13,6 +13,7 @@ TagManager:
   - water
   - limit
   - bullet
+  - NumberPlayers
   layers:
   - Default
   - TransparentFX

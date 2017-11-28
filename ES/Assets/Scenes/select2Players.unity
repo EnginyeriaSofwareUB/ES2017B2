@@ -700,7 +700,7 @@ GameObject:
   - component: {fileID: 492144534}
   m_Layer: 0
   m_Name: nextP1
-  m_TagString: Untagged
+  m_TagString: Jugador0
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -994,29 +994,14 @@ GameObject:
   - component: {fileID: 817525935}
   - component: {fileID: 817525934}
   - component: {fileID: 817525933}
-  - component: {fileID: 817525932}
+  - component: {fileID: 817525936}
   m_Layer: 0
   m_Name: nextP2
-  m_TagString: Untagged
+  m_TagString: Jugador1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &817525932
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 817525931}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a356f14ddd0f7a245b0482f1ba094356, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  personaje1: {fileID: 1714232053}
-  personaje2: {fileID: 1817176753}
-  personaje3: {fileID: 722076252}
-  personaje4: {fileID: 776538692}
 --- !u!61 &817525933
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1097,6 +1082,21 @@ Transform:
   m_Father: {fileID: 1989406231}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: -5.334, y: 0, z: 0}
+--- !u!114 &817525936
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 817525931}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f4b63f1d6d466d4f9d4b1dad7a269e9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  personaje1: {fileID: 1714232053}
+  personaje2: {fileID: 1817176753}
+  personaje3: {fileID: 722076252}
+  personaje4: {fileID: 776538692}
 --- !u!1 &952518088
 GameObject:
   m_ObjectHideFlags: 0
@@ -1348,7 +1348,7 @@ GameObject:
   - component: {fileID: 1237854381}
   m_Layer: 0
   m_Name: prevP1
-  m_TagString: Untagged
+  m_TagString: Jugador0
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1458,10 +1458,10 @@ GameObject:
   - component: {fileID: 1322688992}
   - component: {fileID: 1322688994}
   - component: {fileID: 1322688995}
-  - component: {fileID: 1322688993}
+  - component: {fileID: 1322688996}
   m_Layer: 0
   m_Name: prevP2
-  m_TagString: Untagged
+  m_TagString: Jugador1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1479,21 +1479,6 @@ Transform:
   m_Father: {fileID: 1989406231}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: -5.334, y: 0, z: 0}
---- !u!114 &1322688993
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1322688991}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cdae0fb9de181b1419d256478d484490, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  personaje1: {fileID: 1714232053}
-  personaje2: {fileID: 1817176753}
-  personaje3: {fileID: 722076252}
-  personaje4: {fileID: 776538692}
 --- !u!212 &1322688994
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1561,6 +1546,21 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 5.12, y: 5.12}
   m_EdgeRadius: 0
+--- !u!114 &1322688996
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1322688991}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7595df7801821954a89639b7e3f5a58b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  personaje1: {fileID: 1714232053}
+  personaje2: {fileID: 1817176753}
+  personaje3: {fileID: 722076252}
+  personaje4: {fileID: 776538692}
 --- !u!1001 &1502754482
 Prefab:
   m_ObjectHideFlags: 0

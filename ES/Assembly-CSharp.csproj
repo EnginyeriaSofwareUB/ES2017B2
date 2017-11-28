@@ -67,10 +67,8 @@
      <Compile Include="Assets\Scripts\pantallaInici\ExitButtonPressed.cs" />
      <Compile Include="Assets\Scripts\pantallaInici\NewGameButtonPressed.cs" />
      <Compile Include="Assets\Scripts\select2Players\nextP1.cs" />
-     <Compile Include="Assets\Scripts\select2Players\nextP2.cs" />
      <Compile Include="Assets\Scripts\select2Players\playGame.cs" />
      <Compile Include="Assets\Scripts\select2Players\prevP1.cs" />
-     <Compile Include="Assets\Scripts\select2Players\prevP2.cs" />
      <Compile Include="Assets\Scripts\select2Players\ProjectVars.cs" />
      <Compile Include="Assets\Scripts\select2Players\Singleton.cs" />
      <Compile Include="Assets\ScrollingBackground.cs" />
