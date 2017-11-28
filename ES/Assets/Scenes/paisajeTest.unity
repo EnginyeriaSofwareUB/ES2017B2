@@ -23300,6 +23300,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 0}
+  shooting: 0
 --- !u!1 &957326656
 GameObject:
   m_ObjectHideFlags: 0
@@ -43933,6 +43934,11 @@ Prefab:
     - target: {fileID: 4242221020375748, guid: d0a666708f45b1b4fb78dab51ca2e720, type: 2}
       propertyPath: m_RootOrder
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 20379979096979698, guid: d0a666708f45b1b4fb78dab51ca2e720,
+        type: 2}
+      propertyPath: orthographic size
+      value: 5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: d0a666708f45b1b4fb78dab51ca2e720, type: 2}

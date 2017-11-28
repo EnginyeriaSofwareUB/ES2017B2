@@ -13,6 +13,7 @@ public class BulletShooter : MonoBehaviour {
 	bool chargingShoot = false;
 	public Vector2 offset = new Vector2(0.4f,0.1f);
 
+
 	// Use this for initialization
 	void Start () {
 		powerBar = (GameObject) Instantiate (powerBar, new Vector2(0.1f, 0.1f), Quaternion.identity);
@@ -34,17 +35,29 @@ public class BulletShooter : MonoBehaviour {
 			powerBar.SetActive (true);
 			if (Input.GetKeyDown (KeyCode.LeftShift)) {
 				chargingShoot = true;
+			
+
 			}
 
 			if (chargingShoot && (Input.GetKeyUp (KeyCode.LeftShift) || velocity >= 128)) {
 				chargingShoot = false;
 				shoot ();
+
+				//******
+				//GameObject gameC = GameObject.FindGameObjectsWithTag ("GameController")[0];
+				//GameController gameControllerScript = gameC.GetComponent<GameController> ();
+				//gameControllerScript.changeTurn ();
+				//*****
 			}
 
 			if (chargingShoot) {
+				//GameObject gameC = GameObject.FindGameObjectsWithTag ("GameController")[0];
+				//GameController gameControllerScript = gameC.GetComponent<GameController> ();
+				//gameControllerScript.changeTurn ();
 				velocity += Time.deltaTime * 85.33f;
 				velocity = Mathf.Clamp (velocity, 0, 128);
 				powerBarTexture.pixelInset = new Rect (transform.position.x, transform.position.y, velocity, 10);
+			
 			}
 				
 		} else {
@@ -62,9 +75,15 @@ public class BulletShooter : MonoBehaviour {
 		velocity = 0;
 		powerBarTexture.pixelInset = new Rect(0, 0, 0, 10);
 
-		GameObject gameC = GameObject.FindGameObjectsWithTag ("GameController")[0];
-		GameController gameControllerScript = gameC.GetComponent<GameController> ();
-		gameControllerScript.changeTurn ();
+
 
 	}
+	public bool isShooting(){
+		return shooting;
+	}
+	public void setShooting(bool shooting)
+	{
+		this.shooting = shooting;
+	}
+
 }

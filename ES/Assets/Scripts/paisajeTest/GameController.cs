@@ -6,8 +6,8 @@ public class GameController : MonoBehaviour {
 
 	//array con todos los jugadores
 
-	//List<string> jugadores = new List<string>{"Knight","Woman_warrior_1"};
-	List<string> jugadores = ProjectVars.Instance.players;
+	List<string> jugadores = new List<string>{"Knight","Woman_warrior_1"};
+	//List<string> jugadores = ProjectVars.Instance.players;
 
 	//List<string> jugadores = new List<string>{"Knight","Woman_warrior_2_blue"};
 	int numeroJugador = 0;
@@ -23,7 +23,7 @@ public class GameController : MonoBehaviour {
 
 			GameObject player = (GameObject)Instantiate (Resources.Load("character/"+ namePrefab,
 					typeof(GameObject)),position, Quaternion.identity);
-			position.x += 20;
+			position.x += 12;
 			player.tag = string.Concat("Jugador", numeroJugador.ToString());
 			numeroJugador += 1;
 		}
@@ -39,7 +39,7 @@ public class GameController : MonoBehaviour {
 	}
 
 	public void changeTurn() {
-
+		//bool shooting = false;
 		energyBar.SendMessage("setEnergy",100f);
 		GameObject LastTurnPlayer = GameObject.FindGameObjectsWithTag (string.Concat("Jugador", turnoJugador.ToString()))[0];
 		LastTurnPlayer.GetComponent<PlayerModel> ().turno = false;
@@ -55,8 +55,12 @@ public class GameController : MonoBehaviour {
 		player.GetComponent<PlayerModel> ().turno = true;
 
 		GetComponent<scriptTimer> ().tiempo = 20f;
+		//GetComponent<scriptTimer> ().tiempo = 20f;
 
 
+	}
+	public int GetPlayerTurn(){
+		return turnoJugador;
 	}
 
 	// Update is called once per frame

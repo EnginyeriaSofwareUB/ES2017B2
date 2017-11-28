@@ -7,19 +7,40 @@ public class camaraP1 : MonoBehaviour {
 	//objeto del cual se va hacer un seguimiento
 	public GameObject player = null;
 	private Vector3 distancia;
+	public bool shooting;
 
 	// Use this for initialization
 	void Start () {
 		//calculo la distancia entre la posicion del jugador y la posicion de la camara
 		distancia =	transform.position - player.transform.position;
-		distancia = new Vector3 (distancia.x, distancia.y + 2, distancia.z);
+		distancia = new Vector3 (distancia.x , distancia.y + 2, distancia.z);
 	}
 	
 	// Update is called once per frame
 	void Update () {
 		//cambiamos la posicion de la camara manteniendo siempre la distancia entre el jugador y la camara.
-		if (player != null)
-			transform.position = player.transform.position + distancia;
+
+		if (player != null) {
+			//cojo el script del bo
+			//GameObject bulletShooterScript = player.GetComponent<BulletShooter>();
+			GameObject bulleShooterScript = player.GetComponent<BulletShooter>();
+			if (bulletShooterScript.isShooting ()) {
+				//como tener la posicion de bala
+				GameObject bullet = GameObject.FindGameObjectsWithTag ("bullet")[0];
+				transform.position = bullet.transform.position + distancia;
+				
+				
+			} else {
+				transform.position = player.transform.position + distancia;
+				
+			}
+
+
+			
+		}
+		//if (player != null)
+
+			
 		
 	}
 		
