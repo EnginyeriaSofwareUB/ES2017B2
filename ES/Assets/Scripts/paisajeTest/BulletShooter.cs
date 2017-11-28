@@ -33,7 +33,7 @@ public class BulletShooter : MonoBehaviour {
 		}
 		if (GetComponent<PlayerModel> ().turno) {
 			powerBar.SetActive (true);
-			if (Input.GetKeyDown (KeyCode.LeftShift)) {
+			if (Input.GetKeyDown (KeyCode.LeftShift) && !shooting) {
 				chargingShoot = true;
 			
 
@@ -43,17 +43,9 @@ public class BulletShooter : MonoBehaviour {
 				chargingShoot = false;
 				shoot ();
 
-				//******
-				//GameObject gameC = GameObject.FindGameObjectsWithTag ("GameController")[0];
-				//GameController gameControllerScript = gameC.GetComponent<GameController> ();
-				//gameControllerScript.changeTurn ();
-				//*****
 			}
 
 			if (chargingShoot) {
-				//GameObject gameC = GameObject.FindGameObjectsWithTag ("GameController")[0];
-				//GameController gameControllerScript = gameC.GetComponent<GameController> ();
-				//gameControllerScript.changeTurn ();
 				velocity += Time.deltaTime * 85.33f;
 				velocity = Mathf.Clamp (velocity, 0, 128);
 				powerBarTexture.pixelInset = new Rect (transform.position.x, transform.position.y, velocity, 10);
