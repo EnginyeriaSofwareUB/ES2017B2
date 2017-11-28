@@ -1,8 +1,9 @@
 ﻿using System.Collections.Generic;
 using UnityEngine;
 
-public class ProjectVars : Singleton<ProjectVars> {
+public class ProjectVars : MonoBehaviour{
 
+	private static ProjectVars _instance;
 	//Variables para instanciar
 	public string StringActiveBetweenScenes;
 	public Dictionary<string, string> playersPrefabs = new Dictionary<string, string>(){
@@ -14,11 +15,15 @@ public class ProjectVars : Singleton<ProjectVars> {
 
 	public List<string> players = new List<string>();
 
-	public static ProjectVars Instance {
-		get {
-			return ((ProjectVars)mInstance);
-		} set {
-			mInstance = value;
+	public static ProjectVars Instance { get { return _instance; } }
+
+	private void Awake()
+	{
+		if (_instance != null && _instance != this)
+		{
+			Destroy(this.gameObject);
+		} else {
+			_instance = this;
 		}
 	}
 

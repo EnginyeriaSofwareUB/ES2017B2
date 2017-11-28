@@ -70,7 +70,6 @@
      <Compile Include="Assets\Scripts\select2Players\playGame.cs" />
      <Compile Include="Assets\Scripts\select2Players\prevP1.cs" />
      <Compile Include="Assets\Scripts\select2Players\ProjectVars.cs" />
-     <Compile Include="Assets\Scripts\select2Players\Singleton.cs" />
      <Compile Include="Assets\ScrollingBackground.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
