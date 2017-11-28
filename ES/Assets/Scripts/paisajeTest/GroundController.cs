@@ -27,8 +27,7 @@ public class GroundController : MonoBehaviour {
 		int turnoJugador = gameControllerScript.GetPlayerTurn ();
 		GameObject jugador = GameObject.FindGameObjectsWithTag ("Jugador"+turnoJugador)[0];
 		//sacos el script
-		GameController bulletShooter = gameC.GetComponent<BulletShooter> ();
-		bulletShooter.setShooting (false);
+		jugador.GetComponent<BulletShooter> ().setShooting(false);
 		gameControllerScript.changeTurn ();
 	}
 	//void CambiarTurno(){

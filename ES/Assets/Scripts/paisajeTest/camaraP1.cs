@@ -22,14 +22,17 @@ public class camaraP1 : MonoBehaviour {
 
 		if (player != null) {
 			//cojo el script del bo
-			//GameObject bulletShooterScript = player.GetComponent<BulletShooter>();
-			GameObject bulleShooterScript = player.GetComponent<BulletShooter>();
-			if (bulletShooterScript.isShooting ()) {
+
+			shooting = player.GetComponent<BulletShooter>().isShooting();
+
+			if (shooting) {
 				//como tener la posicion de bala
-				GameObject bullet = GameObject.FindGameObjectsWithTag ("bullet")[0];
-				transform.position = bullet.transform.position + distancia;
-				
-				
+				if(GameObject.FindGameObjectsWithTag ("bullet").Length>0){
+					GameObject bullet = GameObject.FindGameObjectsWithTag ("bullet") [0];
+					transform.position = bullet.transform.position + distancia;
+				}
+
+
 			} else {
 				transform.position = player.transform.position + distancia;
 				
