@@ -49,8 +49,10 @@ public class playerController : MonoBehaviour {
 			//Para que el personaje gire
 			if (Direction > 0) {
 				transform.localScale = new Vector3 (1, 1, 1);
+				GetComponentInChildren<Transform>().Find("CanvasBar").transform.rotation = Quaternion.Euler(new Vector3 (0,0,0));
 			} else if (Direction < 0) {
 				transform.localScale = new Vector3 (-1, 1, 1);
+				GetComponentInChildren<Transform>().Find("CanvasBar").transform.rotation = Quaternion.Euler(new Vector3 (0,180,0));
 			}
 
 			//Cuando toque el suelo
