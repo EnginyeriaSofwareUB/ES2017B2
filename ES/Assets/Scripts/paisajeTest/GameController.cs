@@ -19,7 +19,6 @@ public class GameController : MonoBehaviour {
 		energyBar = GameObject.Find("EnergyBar");//Buscamos la referencia a la barra de energia
 		foreach(var namePrefab in jugadores )
 		{
-
 			GameObject player = (GameObject)Instantiate (Resources.Load("character/"+ namePrefab,
 					typeof(GameObject)),position, Quaternion.identity);
 			position.x += 12;

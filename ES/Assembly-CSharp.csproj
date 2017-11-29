@@ -52,6 +52,8 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\playerCollision.cs" />
+     <Compile Include="Assets\Scripts\finalPartida\MainMenuButtonPressed.cs" />
+     <Compile Include="Assets\Scripts\finalPartida\ResetButtonPressed.cs" />
      <Compile Include="Assets\Scripts\paisajeTest\BulletShooter.cs" />
      <Compile Include="Assets\Scripts\paisajeTest\camaraP1.cs" />
      <Compile Include="Assets\Scripts\paisajeTest\EnergyBar.cs" />

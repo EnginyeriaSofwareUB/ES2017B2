@@ -5,7 +5,6 @@ public class ProjectVars : MonoBehaviour{
 
 	private static ProjectVars _instance;
 	//Variables para instanciar
-	public string StringActiveBetweenScenes;
 	public Dictionary<string, string> playersPrefabs = new Dictionary<string, string>(){
 		{"Jugador0","Knight"},
 		{"Jugador1","Knight"},
