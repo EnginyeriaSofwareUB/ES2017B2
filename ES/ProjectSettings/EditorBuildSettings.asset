@@ -17,3 +17,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/select4Players.unity
     guid: 6d705d3a77fa04ecfbae05773817e2d8
+  - enabled: 1
+    path: Assets/Scenes/finalPartida.unity
+    guid: 1e44c9f020e4e4cdaa3effa03ad3107c

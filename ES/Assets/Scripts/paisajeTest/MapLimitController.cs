@@ -8,7 +8,7 @@ public class MapLimitController : MonoBehaviour {
 	void OnTriggerEnter2D(Collider2D col) {
 		if (col.tag.Contains("Jugador") || col.tag == "bullet") {
 			Destroy (col.gameObject);
-			SceneManager.LoadScene (2);
+			SceneManager.LoadScene (4);
 		}
 	}
 }

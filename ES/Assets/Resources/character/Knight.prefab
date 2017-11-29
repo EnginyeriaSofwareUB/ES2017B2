@@ -327,14 +327,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxSpeed: 20
   touchFloor: 0
-  Grounded: 0
-  radio: 0.8
   floor:
     serializedVersion: 2
     m_Bits: 256
   foot: {fileID: 4135478216539924}
   maxJump: 25
-  Speed: 0
 --- !u!114 &114794617182721856
 MonoBehaviour:
   m_ObjectHideFlags: 1
