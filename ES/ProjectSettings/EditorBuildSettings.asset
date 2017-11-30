@@ -20,3 +20,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/finalPartida.unity
     guid: 1e44c9f020e4e4cdaa3effa03ad3107c
+  - enabled: 1
+    path: Assets/Scenes/PantallaOpcions.unity
+    guid: c73e54422ddff4337a0dc4e4f20b0ac4
