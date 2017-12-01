@@ -63,6 +63,7 @@ public class BulletShooter : MonoBehaviour {
 		float angle = GetComponent<PointerController> ().angle;
 		bullet = (GameObject) Instantiate (projectile,(Vector2) transform.position + offset * transform.localScale.x, Quaternion.identity);
 		bullet.GetComponent<Rigidbody2D> ().velocity = new Vector2 (shootPower * Mathf.Cos(Mathf.Deg2Rad * angle), shootPower * Mathf.Sin(Mathf.Deg2Rad * angle));
+		bullet.GetComponent<GroundController> ().setPlayerShooting (transform.gameObject);
 		shooting = true;
 		velocity = 0;
 		powerBarTexture.pixelInset = new Rect(0, 0, 0, 10);
