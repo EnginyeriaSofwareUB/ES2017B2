@@ -16,25 +16,25 @@ public class prevP1 : MonoBehaviour {
 				personaje2.SetActive (false);
 				personaje3.SetActive (false);
 				personaje4.SetActive (true);
-				ProjectVars.Instance.playersPrefabs [transform.tag] = "Robot";
+				ProjectVars.Instance.playersPrefabs [transform.tag] = "Woman_warrior_2";
 			} else if (personaje2.activeSelf) {
 				personaje1.SetActive (true);
 				personaje2.SetActive (false);
 				personaje3.SetActive (false);
 				personaje4.SetActive (false);
-				ProjectVars.Instance.playersPrefabs[transform.tag] = "Woman_warrior_1";
+				ProjectVars.Instance.playersPrefabs[transform.tag] = "Knight";
 			} else if (personaje3.activeSelf) {
 				personaje1.SetActive (false);
 				personaje2.SetActive (true);
 				personaje3.SetActive (false);
 				personaje4.SetActive (false);
-				ProjectVars.Instance.playersPrefabs[transform.tag] = "Woman_warrior_2";
+				ProjectVars.Instance.playersPrefabs[transform.tag] = "Robot";
 			} else if (personaje4.activeSelf) {
 				personaje1.SetActive (false);
 				personaje2.SetActive (false);
 				personaje3.SetActive (true);
 				personaje4.SetActive (false);
-				ProjectVars.Instance.playersPrefabs[transform.tag] = "Knight";
+				ProjectVars.Instance.playersPrefabs[transform.tag] = "Woman_warrior_1";
 			} 
 		}
 	}
