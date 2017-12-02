@@ -20,7 +20,7 @@ public class playerController : MonoBehaviour {
     private GameObject energyBar; // variable apra gestionar la barra de energia
     private float playerEnergy;
 
-	private Animator animator;
+    private Animator animator;
 
 
 	// Use this for initialization

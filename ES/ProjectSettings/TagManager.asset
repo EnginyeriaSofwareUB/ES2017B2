@@ -14,6 +14,8 @@ TagManager:
   - limit
   - bullet
   - NumberPlayers
+  - powerup_energy
+  - powerup_health
   layers:
   - Default
   - TransparentFX
