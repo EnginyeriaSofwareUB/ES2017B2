@@ -15,7 +15,7 @@ public class playerController : MonoBehaviour {
     private float radio = 0.2f;
     public LayerMask floor;
     public Transform foot;
-    public float maxJump = 25f;//fuerza de salto
+    public float maxJump = 20f;//fuerza de salto
 
     private GameObject energyBar; // variable apra gestionar la barra de energia
     private float playerEnergy;
@@ -27,7 +27,7 @@ public class playerController : MonoBehaviour {
 	void Start () {
         Body = GetComponent<Rigidbody2D>();
         energyBar = GameObject.Find("EnergyBar");
-		animator = GetComponent<Animator> ();
+	      animator = GetComponent<Animator> ();
 	}
 
 	// Update is called once per frame
@@ -36,6 +36,7 @@ public class playerController : MonoBehaviour {
 		if (GetComponent<PlayerModel> ().turno) {
 
 			float Direction = Input.GetAxis ("Horizontal");
+      Body.mass = 100f;
 			//float energyPlayer = GetComponent<EnergyBar>().energy;
 			if (Direction != 0 && playerEnergy > 0.0f) { // comprobamos si el usuario quiere moverse horizontalmente
 				energyBar.SendMessage ("TakeEnergy", 3);//llama al metododel script energyBar y le resta la cantidad que pasamos.
@@ -58,13 +59,16 @@ public class playerController : MonoBehaviour {
 			//Cuando toque el suelo
 			if (touchFloor) {
 				if (Input.GetKeyDown (KeyCode.Space)) {
-					Body.AddForce (new Vector2 (0, maxJump * 10));
+					Body.AddForce (new Vector2 (0, maxJump * 1000));
 				}
 			}
 
 			//actualizamos la energia del jugador
 			playerEnergy = energyBar.GetComponent<EnergyBar> ().energy;
-		}
+		}else{
+      //Body.drag = 100f;
+      Body.mass = 10000f;
+    }
 
 	}
 }
