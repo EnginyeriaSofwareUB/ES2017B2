@@ -15,7 +15,7 @@ public class playerController : MonoBehaviour {
     private float radio = 0.2f;
     public LayerMask floor;
     public Transform foot;
-    public float maxJump = 25f;//fuerza de salto
+    public float maxJump = 20f;//fuerza de salto
 
     private GameObject energyBar; // variable apra gestionar la barra de energia
     private float playerEnergy;
@@ -58,7 +58,7 @@ public class playerController : MonoBehaviour {
 			//Cuando toque el suelo
 			if (touchFloor) {
 				if (Input.GetKeyDown (KeyCode.Space)) {
-					Body.AddForce (new Vector2 (0, maxJump * 10));
+					Body.AddForce (new Vector2 (0, maxJump * 1000));
 				}
 			}
 
