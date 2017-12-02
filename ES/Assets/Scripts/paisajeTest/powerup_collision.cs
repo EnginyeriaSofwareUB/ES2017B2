@@ -16,8 +16,8 @@ public class powerup_collision : MonoBehaviour {
 		if(gameObject.tag == "powerup_energy"){
 			energyBar.SendMessage ("setEnergy", 100);//Recuperamos energia
 		}
-		else if(gameObject.tag == "powerup_health"){
-			
+		else{
+			col.gameObject.transform.GetChild (1).GetChild(0).GetComponent<PlayerHealth>().setPlayerHealth(20);
 		}
 		Destroy(gameObject);
 	}
