@@ -58,6 +58,10 @@ public class GameController : MonoBehaviour {
 		camScript.player = player;
 		player.GetComponent<PlayerModel> ().turno = true;
 
+		//Actualizamos el player para poder gestioanr la muerte
+		PlayerHealth cBarPlayer = player.GetComponentInChildren<PlayerHealth>();
+		cBarPlayer.setPlayer(player);
+
 		GetComponent<scriptTimer> ().tiempo = 20f;
 		//GetComponent<scriptTimer> ().tiempo = 20f;
 

@@ -16,7 +16,7 @@ public class GroundController : MonoBehaviour {
 			transform.rotation = Quaternion.AngleAxis (angle, Vector3.forward);
 			transform.GetComponent<Rigidbody2D> ().velocity = dir;
 		} else if (col.tag != player.tag && col.tag.Contains ("Jugador")) {
-			col.gameObject.transform.GetChild (1).GetChild(0).GetComponent<PlayerHealth>().TakeDamage(10);
+			col.gameObject.transform.GetChild (1).GetChild(0).GetComponent<PlayerHealth>().TakeDamage(40);
 			Destroy (gameObject);
 		}
 
@@ -24,7 +24,7 @@ public class GroundController : MonoBehaviour {
 
 	public void setPlayerShooting(GameObject player) {
 		this.player = player;
-	} 
+	}
 
 
 

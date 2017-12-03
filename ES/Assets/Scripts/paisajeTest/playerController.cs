@@ -27,7 +27,7 @@ public class playerController : MonoBehaviour {
         Body = GetComponent<Rigidbody2D>();
         energyBar = GameObject.Find("EnergyBar");
 	      animator = GetComponent<Animator> ();
-		animator.SetBool ("Grounded", true);
+        animator.SetBool ("Grounded", true);
 	}
 
 	// Update is called once per frame
@@ -69,6 +69,11 @@ public class playerController : MonoBehaviour {
       //Body.drag = 100f;
       Body.mass = 10000f;
     }
-
 	}
+
+  //Muerte del jugador
+  public void playerDead(){
+    animator.Play("player_dead");
+  }
+
 }
