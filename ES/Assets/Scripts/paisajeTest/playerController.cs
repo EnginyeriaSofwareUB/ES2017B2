@@ -27,6 +27,7 @@ public class playerController : MonoBehaviour {
         Body = GetComponent<Rigidbody2D>();
         energyBar = GameObject.Find("EnergyBar");
 	      animator = GetComponent<Animator> ();
+		animator.SetBool ("Grounded", true);
 	}
 
 	// Update is called once per frame

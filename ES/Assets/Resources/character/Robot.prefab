@@ -234,12 +234,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 82b04dc21f987a341a67a5dd8b44dc34, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxSpeed: 10
+  maxSpeed: 5
   touchFloor: 0
   floor:
     serializedVersion: 2
     m_Bits: 256
-  foot: {fileID: 4456976855421448}
   maxJump: 25
 --- !u!114 &114277570604907018
 MonoBehaviour:
