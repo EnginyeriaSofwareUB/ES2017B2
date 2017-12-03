@@ -155,7 +155,7 @@ Rigidbody2D:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1890688160357516}
   m_BodyType: 0
-  m_Simulated: 0
+  m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 100
@@ -325,12 +325,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 82b04dc21f987a341a67a5dd8b44dc34, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxSpeed: 20
+  maxSpeed: 5
   touchFloor: 0
   floor:
     serializedVersion: 2
     m_Bits: 256
-  foot: {fileID: 4135478216539924}
   maxJump: 25
 --- !u!114 &114794617182721856
 MonoBehaviour:

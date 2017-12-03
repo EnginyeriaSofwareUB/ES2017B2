@@ -14,7 +14,6 @@ public class playerController : MonoBehaviour {
     public bool touchFloor; //Nos indicará si el player esta tocando el suelo
     private float radio = 0.2f;
     public LayerMask floor;
-    public Transform foot;
     public float maxJump = 20f;//fuerza de salto
 
     private GameObject energyBar; // variable apra gestionar la barra de energia
@@ -42,8 +41,8 @@ public class playerController : MonoBehaviour {
 				energyBar.SendMessage ("TakeEnergy", 3);//llama al metododel script energyBar y le resta la cantidad que pasamos.
 				Body.velocity = new Vector2 (Direction * maxSpeed, Body.velocity.y);
 			}
-
-			touchFloor = Physics2D.OverlapCircle (foot.position, radio, floor);
+			GameObject foot = gameObject.transform.GetChild (0).gameObject;
+			touchFloor = Physics2D.OverlapCircle (foot.transform.position, radio, floor);
 			animator.SetBool ("Grounded", touchFloor);
 			animator.SetFloat ("Speed", Mathf.Abs (Direction));
 

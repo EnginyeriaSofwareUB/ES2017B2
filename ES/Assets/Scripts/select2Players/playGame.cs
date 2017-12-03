@@ -14,30 +14,9 @@ public class playGame : MonoBehaviour {
 
 		foreach (string element in keys) {
 			string nameCharacter = projectVarsInstace.playersPrefabs [element];
-
-			switch (element) {
-			case "Jugador0":
-				if (nameCharacter != "") {
-					projectVarsInstace.players.Add (nameCharacter + "_blue");
-				}
-				break;
-			case "Jugador1":
-				if (nameCharacter != "") {
-					projectVarsInstace.players.Add (nameCharacter + "_red");
-				}
-				break;
-			case "Jugador2":
-				if (nameCharacter != "") {
-					projectVarsInstace.players.Add (nameCharacter + "_red");
-				}
-				break;
-			case "Jugador3":
-				if (nameCharacter != "") {
-					projectVarsInstace.players.Add (nameCharacter + "_blue");
-				}
-				break;
+			if (nameCharacter != "") {
+				projectVarsInstace.players.Add (nameCharacter);
 			}
-
 		}
 		SceneManager.LoadScene (index);
 	}

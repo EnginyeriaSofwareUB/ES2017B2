@@ -23,6 +23,12 @@ public class GameController : MonoBehaviour {
 					typeof(GameObject)),position, Quaternion.identity);
 			position.x += 12;
 			player.tag = string.Concat("Jugador", numeroJugador.ToString());
+			player.transform.GetChild(0).name = string.Concat("Jugador", (numeroJugador+1).ToString()) ;
+			if (numeroJugador == 0 || numeroJugador == 2) {
+				IconManager.SetIcon (player.transform.GetChild (0).gameObject, IconManager.LabelIcon.Blue);
+			} else {
+				IconManager.SetIcon (player.transform.GetChild (0).gameObject, IconManager.LabelIcon.Red);
+			}
 			numeroJugador += 1;
 		}
 		initFirstTurn ();
