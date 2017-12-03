@@ -8,11 +8,11 @@ public class PlayerHealth : MonoBehaviour{
 	public float hp;//vida del jugador
 	public float maxHp = 100;//vida inicial de la partoda
 	public Image playerHealthBar;
-	public Animator animator;
+	public GameObject player = null;
+
 	// Use this for initialization
 	void Start () {
 		hp = maxHp; // al principio del juego tendra la maxima vida el jugador
-		animator = GetComponent<Animator>();
 		//TakeDam(5f);
 	}
 
@@ -34,7 +34,14 @@ public class PlayerHealth : MonoBehaviour{
 
 	public void Death(){
 		//Debug.Log("He muerto");
-		animator.Play("player_dead");
+		if (player != null) {
+			//cojo el script del bo
+			player.GetComponent<playerController>().playerDead();
+		}
+	}
+
+	public void setPlayer(GameObject obj){
+		this.player = obj;
 	}
 
 	// Update is called once per frame

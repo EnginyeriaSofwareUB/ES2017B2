@@ -70,9 +70,11 @@ public class playerController : MonoBehaviour {
       Body.mass = 10000f;
     }
 	}
-  void playerDead(){
+
+  //Muerte del jugador
+  public void playerDead(){
     animator.Play("player_dead");
     //cerrar partida
   }
-  
+
 }
