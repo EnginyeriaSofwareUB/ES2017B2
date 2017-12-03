@@ -74,7 +74,6 @@ public class playerController : MonoBehaviour {
   //Muerte del jugador
   public void playerDead(){
     animator.Play("player_dead");
-    //cerrar partida
   }
 
 }
