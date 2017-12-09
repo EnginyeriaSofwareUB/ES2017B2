@@ -12,6 +12,7 @@ public class GameController : MonoBehaviour {
 	int numeroJugador = 0;
 	private int turnoJugador = 0;
 	private GameObject energyBar; // variable apra gestionar la barra de energia
+	private int numeroTurno = 1;
 
 	// Use this for initialization
 	void Awake () {
@@ -50,6 +51,14 @@ public class GameController : MonoBehaviour {
 		turnoJugador += 1;
 		if (turnoJugador > jugadores.Count-1) {
 			turnoJugador = 0;
+			numeroTurno += 1;
+			if (numeroTurno > 4) {
+				if (numeroTurno == 5) {
+					reduceMap (true);
+				} else {
+					reduceMap (false);
+				}
+			}
 
 		}
 		GameObject player = GameObject.FindGameObjectsWithTag (string.Concat("Jugador", turnoJugador.ToString()))[0];
@@ -69,6 +78,21 @@ public class GameController : MonoBehaviour {
 	}
 	public int GetPlayerTurn(){
 		return turnoJugador;
+	}
+
+	private void reduceMap(bool firstTime) {
+		GameObject[] mapLimits = GameObject.FindGameObjectsWithTag ("limit");
+		GameObject leftLimit = mapLimits [2];
+		GameObject rightLimit = mapLimits [1];
+
+		if (firstTime) {
+			leftLimit.transform.position = new Vector3(-15.5f,leftLimit.transform.position.y, leftLimit.transform.position.z );
+			rightLimit.transform.position = new Vector3(60f,rightLimit.transform.position.y, rightLimit.transform.position.z );
+		} else {
+			leftLimit.transform.position = new Vector3(leftLimit.transform.position.x +3,leftLimit.transform.position.y, leftLimit.transform.position.z );
+			rightLimit.transform.position = new Vector3(rightLimit.transform.position.x -3,rightLimit.transform.position.y, rightLimit.transform.position.z );
+			
+		}
 	}
 
 	// Update is called once per frame
