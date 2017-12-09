@@ -1313,7 +1313,7 @@ Transform:
   m_GameObject: {fileID: 461728150}
   m_LocalRotation: {x: -0.046531145, y: -0, z: -0, w: 0.99891686}
   m_LocalPosition: {x: -510.92, y: -744.14, z: -0.029090881}
-  m_LocalScale: {x: 0.124689996, y: 0.18143, z: 1}
+  m_LocalScale: {x: 0.08, y: 0.08, z: 1}
   m_Children: []
   m_Father: {fileID: 794766470}
   m_RootOrder: 3
@@ -1350,7 +1350,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 8bf22d43a50292f4684e3a6776ca97bf, type: 3}
+  m_Sprite: {fileID: 21300000, guid: d640cbc83cc21e94cacf0a608be38f88, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1526,7 +1526,7 @@ Transform:
   m_GameObject: {fileID: 567581418}
   m_LocalRotation: {x: -0.046531145, y: -0, z: -0, w: 0.99891686}
   m_LocalPosition: {x: -510.90002, y: -748.91003, z: -0.029090881}
-  m_LocalScale: {x: 0.124689996, y: 0.18143, z: 1}
+  m_LocalScale: {x: 0.08, y: 0.08, z: 1}
   m_Children: []
   m_Father: {fileID: 783187112}
   m_RootOrder: 3
@@ -1563,7 +1563,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 8bf22d43a50292f4684e3a6776ca97bf, type: 3}
+  m_Sprite: {fileID: 21300000, guid: d640cbc83cc21e94cacf0a608be38f88, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1657,7 +1657,7 @@ GameObject:
   - component: {fileID: 581284377}
   m_Layer: 0
   m_Name: nextArmaP2
-  m_TagString: Jugador1
+  m_TagString: Jugador2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1929,7 +1929,7 @@ Transform:
   m_GameObject: {fileID: 591679833}
   m_LocalRotation: {x: -0.046531145, y: -0, z: -0, w: 0.99891686}
   m_LocalPosition: {x: -499.488, y: -744.13995, z: -0.029090881}
-  m_LocalScale: {x: 0.124689996, y: 0.18143, z: 1}
+  m_LocalScale: {x: 0.08, y: 0.08, z: 1}
   m_Children: []
   m_Father: {fileID: 585571190}
   m_RootOrder: 3
@@ -1966,7 +1966,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 8bf22d43a50292f4684e3a6776ca97bf, type: 3}
+  m_Sprite: {fileID: 21300000, guid: d640cbc83cc21e94cacf0a608be38f88, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -2979,7 +2979,7 @@ Transform:
   m_GameObject: {fileID: 1072028937}
   m_LocalRotation: {x: -0.046531145, y: -0, z: -0, w: 0.99891686}
   m_LocalPosition: {x: -499.68, y: -749.01, z: -0.029090881}
-  m_LocalScale: {x: 0.124689996, y: 0.18143, z: 1}
+  m_LocalScale: {x: 0.08, y: 0.08, z: 1}
   m_Children: []
   m_Father: {fileID: 1356757499}
   m_RootOrder: 3
@@ -3016,7 +3016,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 8bf22d43a50292f4684e3a6776ca97bf, type: 3}
+  m_Sprite: {fileID: 21300000, guid: d640cbc83cc21e94cacf0a608be38f88, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -3039,7 +3039,7 @@ GameObject:
   - component: {fileID: 1124358346}
   m_Layer: 0
   m_Name: prevArmaP2
-  m_TagString: Jugador1
+  m_TagString: Jugador0
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3752,7 +3752,7 @@ GameObject:
   - component: {fileID: 1287552951}
   m_Layer: 0
   m_Name: nextArmaP2
-  m_TagString: Jugador1
+  m_TagString: Jugador0
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4565,7 +4565,7 @@ GameObject:
   - component: {fileID: 1575599252}
   m_Layer: 0
   m_Name: prevArmaP2
-  m_TagString: Jugador1
+  m_TagString: Jugador2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4845,7 +4845,7 @@ GameObject:
   - component: {fileID: 1667003315}
   m_Layer: 0
   m_Name: prevArmaP2
-  m_TagString: Jugador1
+  m_TagString: Jugador3
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5666,7 +5666,7 @@ GameObject:
   - component: {fileID: 2071023545}
   m_Layer: 0
   m_Name: nextArmaP2
-  m_TagString: Jugador1
+  m_TagString: Jugador3
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

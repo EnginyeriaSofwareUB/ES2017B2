@@ -18,35 +18,35 @@ public class prevArmaP1 : MonoBehaviour {
 				personaje3.SetActive (false);
 				personaje4.SetActive (false);
 				personaje5.SetActive (true);
-				//ProjectVars.Instance.playersPrefabs [transform.tag] = "Robot";
+				ProjectVars.Instance.weaponsPlayers [transform.tag] = "pistola_2";
 			} else if (personaje2.activeSelf) {
 				personaje1.SetActive (true);
 				personaje2.SetActive (false);
 				personaje3.SetActive (false);
 				personaje4.SetActive (false);
 				personaje5.SetActive (false);
-				//ProjectVars.Instance.playersPrefabs[transform.tag] = "Woman_warrior_1";
+				ProjectVars.Instance.weaponsPlayers[transform.tag] = "arma_4";
 			} else if (personaje3.activeSelf) {
 				personaje1.SetActive (false);
 				personaje2.SetActive (true);
 				personaje3.SetActive (false);
 				personaje4.SetActive (false);
 				personaje5.SetActive (false);
-				//ProjectVars.Instance.playersPrefabs[transform.tag] = "Woman_warrior_2";
+				ProjectVars.Instance.weaponsPlayers[transform.tag] = "pistola";
 			} else if (personaje4.activeSelf) {
 				personaje1.SetActive (false);
 				personaje2.SetActive (false);
 				personaje3.SetActive (true);
 				personaje4.SetActive (false);
 				personaje5.SetActive (false);
-				//ProjectVars.Instance.playersPrefabs[transform.tag] = "Knight";
+				ProjectVars.Instance.weaponsPlayers[transform.tag] = "arco";
 			}  else if (personaje5.activeSelf) {
 				personaje1.SetActive (false);
 				personaje2.SetActive (false);
 				personaje3.SetActive (false);
 				personaje4.SetActive (true);
 				personaje5.SetActive (false);
-				//ProjectVars.Instance.playersPrefabs[transform.tag] = "Knight";
+				ProjectVars.Instance.weaponsPlayers[transform.tag] = "arma_5";
 			}
 		}
 	}

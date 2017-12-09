@@ -882,7 +882,7 @@ GameObject:
   - component: {fileID: 381031257}
   m_Layer: 0
   m_Name: nextArmaP1
-  m_TagString: Jugador1
+  m_TagString: Jugador0
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2041,7 +2041,7 @@ GameObject:
   - component: {fileID: 1273527522}
   m_Layer: 0
   m_Name: prevArmaP1
-  m_TagString: Jugador1
+  m_TagString: Jugador0
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2350,7 +2350,7 @@ Transform:
   m_GameObject: {fileID: 1448201192}
   m_LocalRotation: {x: -0.046531145, y: -0, z: -0, w: 0.99891686}
   m_LocalPosition: {x: -499.58798, y: -746.60693, z: -0.029090881}
-  m_LocalScale: {x: 0.124689996, y: 0.18143, z: 1}
+  m_LocalScale: {x: 0.08, y: 0.08, z: 1}
   m_Children: []
   m_Father: {fileID: 432143813}
   m_RootOrder: 3
@@ -2387,7 +2387,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 8bf22d43a50292f4684e3a6776ca97bf, type: 3}
+  m_Sprite: {fileID: 21300000, guid: d640cbc83cc21e94cacf0a608be38f88, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -2421,7 +2421,7 @@ Transform:
   m_GameObject: {fileID: 1460830647}
   m_LocalRotation: {x: -0.046531145, y: -0, z: -0, w: 0.99891686}
   m_LocalPosition: {x: -510.85, y: -746.55, z: -0.029090947}
-  m_LocalScale: {x: 0.12468962, y: 0.18143404, z: 1}
+  m_LocalScale: {x: 0.08, y: 0.08, z: 1}
   m_Children: []
   m_Father: {fileID: 708665760}
   m_RootOrder: 3
@@ -2458,7 +2458,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 8bf22d43a50292f4684e3a6776ca97bf, type: 3}
+  m_Sprite: {fileID: 21300000, guid: d640cbc83cc21e94cacf0a608be38f88, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
