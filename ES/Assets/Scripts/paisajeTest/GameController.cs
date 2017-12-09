@@ -14,7 +14,7 @@ public class GameController : MonoBehaviour {
 	private GameObject energyBar; // variable apra gestionar la barra de energia
 
 	// Use this for initialization
-	void Start () {
+	void Awake () {
 		Vector2 position = new Vector2 (-0.953f, 0f);
 		energyBar = GameObject.Find("EnergyBar");//Buscamos la referencia a la barra de energia
 		foreach(var namePrefab in jugadores )
