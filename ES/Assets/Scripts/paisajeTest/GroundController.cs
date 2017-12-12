@@ -29,7 +29,6 @@ public class GroundController : MonoBehaviour {
 
 
 	void OnDestroy(){
-
 		GameObject gameC = GameObject.FindGameObjectsWithTag ("GameController")[0];
 		GameController gameControllerScript = gameC.GetComponent<GameController> ();
 		//recoges tag, jugador

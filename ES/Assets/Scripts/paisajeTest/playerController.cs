@@ -20,7 +20,7 @@ public class playerController : MonoBehaviour {
     private float playerEnergy;
 
     private Animator animator;
-
+    public bool isDead; // nos indicara si el jugador esta vivo o muerto
 
 	// Use this for initialization
 	void Start () {
@@ -28,12 +28,13 @@ public class playerController : MonoBehaviour {
         energyBar = GameObject.Find("EnergyBar");
 	      animator = GetComponent<Animator> ();
         animator.SetBool ("Grounded", true);
+        isDead = false;
 	}
 
 	// Update is called once per frame
 	void Update () {
 
-		if (GetComponent<PlayerModel> ().turno) {
+		if (GetComponent<PlayerModel> ().turno && !isDead)  {
 
 			float Direction = Input.GetAxis ("Horizontal");
       Body.mass = 100f;
@@ -73,7 +74,12 @@ public class playerController : MonoBehaviour {
 
   //Muerte del jugador
   public void playerDead(){
-    animator.Play("player_dead");
+    if(!isDead){
+      animator.Play("player_dead");
+      isDead = true;
+    }
   }
+
+
 
 }

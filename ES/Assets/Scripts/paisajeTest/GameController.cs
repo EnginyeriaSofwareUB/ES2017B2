@@ -61,21 +61,27 @@ public class GameController : MonoBehaviour {
 			}
 
 		}
+
+
 		GameObject player = GameObject.FindGameObjectsWithTag (string.Concat("Jugador", turnoJugador.ToString()))[0];
-		GameObject camera = GameObject.FindGameObjectsWithTag ("MainCamera")[0];
-		camaraP1 camScript = camera.GetComponent<camaraP1> ();
-		camScript.player = player;
-		player.GetComponent<PlayerModel> ().turno = true;
-
-		//Actualizamos el player para poder gestioanr la muerte
-		PlayerHealth cBarPlayer = player.GetComponentInChildren<PlayerHealth>();
-		cBarPlayer.setPlayer(player);
-
-		GetComponent<scriptTimer> ().tiempo = 20f;
-		//GetComponent<scriptTimer> ().tiempo = 20f;
-
-
+		//Miramos si el player que le toca jugar esta vivo
+		playerController ctr = player.GetComponentInChildren<playerController>();
+		if(ctr.isDead){ // si esta muerto cambiamos de turno a otro player
+			changeTurn();
+		}
+		else{
+			GameObject camera = GameObject.FindGameObjectsWithTag ("MainCamera")[0];
+			camaraP1 camScript = camera.GetComponent<camaraP1> ();
+			camScript.player = player;
+			player.GetComponent<PlayerModel> ().turno = true;
+			//Actualizamos el player para poder gestioanr la muerte
+			PlayerHealth cBarPlayer = player.GetComponentInChildren<PlayerHealth>();
+			cBarPlayer.setPlayer(player);
+			GetComponent<scriptTimer> ().tiempo = 20f;
+			//GetComponent<scriptTimer> ().tiempo = 20f;
+		}
 	}
+
 	public int GetPlayerTurn(){
 		return turnoJugador;
 	}
@@ -91,7 +97,7 @@ public class GameController : MonoBehaviour {
 		} else {
 			leftLimit.transform.position = new Vector3(leftLimit.transform.position.x +3,leftLimit.transform.position.y, leftLimit.transform.position.z );
 			rightLimit.transform.position = new Vector3(rightLimit.transform.position.x -3,rightLimit.transform.position.y, rightLimit.transform.position.z );
-			
+
 		}
 	}
 
