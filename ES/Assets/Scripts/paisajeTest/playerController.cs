@@ -78,7 +78,8 @@ public class playerController : MonoBehaviour {
       animator.Play("player_dead");
       isDead = true;
     }
-
   }
+
+
 
 }

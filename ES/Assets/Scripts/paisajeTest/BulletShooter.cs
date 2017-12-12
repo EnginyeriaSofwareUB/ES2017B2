@@ -33,13 +33,13 @@ public class BulletShooter : MonoBehaviour {
 		}
 		if (GetComponent<PlayerModel> ().turno) {
 			powerBar.SetActive (true);
-			if (Input.GetKeyDown (KeyCode.LeftShift) && !shooting) {
+			if (Input.GetKeyDown (KeyCode.S) && !shooting) {
 				chargingShoot = true;
-			
+
 
 			}
 
-			if (chargingShoot && (Input.GetKeyUp (KeyCode.LeftShift) || velocity >= 128)) {
+			if (chargingShoot && (Input.GetKeyUp (KeyCode.S) || velocity >= 128)) {
 				chargingShoot = false;
 				shoot ();
 
@@ -49,9 +49,9 @@ public class BulletShooter : MonoBehaviour {
 				velocity += Time.deltaTime * 85.33f;
 				velocity = Mathf.Clamp (velocity, 0, 128);
 				powerBarTexture.pixelInset = new Rect (transform.position.x, transform.position.y, velocity, 10);
-			
+
 			}
-				
+
 		} else {
 			powerBar.SetActive (false);
 		}
