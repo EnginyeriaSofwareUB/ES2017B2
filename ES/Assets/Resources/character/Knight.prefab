@@ -314,6 +314,7 @@ MonoBehaviour:
   hp: 0
   maxHp: 100
   playerHealthBar: {fileID: 114863883410066738}
+  player: {fileID: 0}
 --- !u!114 &114642642960357778
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -331,6 +332,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 256
   maxJump: 25
+  isDead: 0
 --- !u!114 &114794617182721856
 MonoBehaviour:
   m_ObjectHideFlags: 1
