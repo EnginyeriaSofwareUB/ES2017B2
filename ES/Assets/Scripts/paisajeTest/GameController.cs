@@ -44,6 +44,9 @@ public class GameController : MonoBehaviour {
 	}
 
 	public void changeTurn() {
+
+		checkGameStatus();//Comprobamos si hay un ganador antes de empezar el turno
+
 		//bool shooting = false;
 		energyBar.SendMessage("setEnergy",100f);
 		GameObject LastTurnPlayer = GameObject.FindGameObjectsWithTag (string.Concat("Jugador", turnoJugador.ToString()))[0];
@@ -80,6 +83,9 @@ public class GameController : MonoBehaviour {
 			GetComponent<scriptTimer> ().tiempo = 20f;
 			//GetComponent<scriptTimer> ().tiempo = 20f;
 		}
+
+
+
 	}
 
 	public int GetPlayerTurn(){
@@ -99,6 +105,45 @@ public class GameController : MonoBehaviour {
 			rightLimit.transform.position = new Vector3(rightLimit.transform.position.x -3,rightLimit.transform.position.y, rightLimit.transform.position.z );
 
 		}
+	}
+
+	public void checkGameStatus(){
+		if(jugadores.Count == 2){ // Si solo tenemos 2 jugadores
+			//Debug.Log("Partida de 2 jugadores");
+			GameObject player1 = GameObject.FindGameObjectsWithTag ("Jugador0")[0];
+			GameObject player2 = GameObject.FindGameObjectsWithTag ("Jugador1")[0];
+			playerController ctr1 = player1.GetComponentInChildren<playerController>();
+			playerController ctr2 = player2.GetComponentInChildren<playerController>();
+			if(ctr1.isDead){
+				Debug.Log("Gana el jugador 2 (ROJO)");//
+			}
+
+			if(ctr2.isDead){
+				Debug.Log("Gana el jugador 1 (AZUL)"); //
+			}
+
+		}
+		//Para el caso de 4 jugadores
+		else{
+			//Debug.Log("Partida de 4 jugadores");
+			GameObject player1 = GameObject.FindGameObjectsWithTag ("Jugador0")[0];
+			GameObject player2 = GameObject.FindGameObjectsWithTag ("Jugador1")[0];
+			GameObject player3 = GameObject.FindGameObjectsWithTag ("Jugador2")[0];
+			GameObject player4 = GameObject.FindGameObjectsWithTag ("Jugador3")[0];
+			playerController ctr1 = player1.GetComponentInChildren<playerController>();
+			playerController ctr2 = player2.GetComponentInChildren<playerController>();
+			playerController ctr3= player3.GetComponentInChildren<playerController>();
+			playerController ctr4 = player4.GetComponentInChildren<playerController>();
+			if(ctr1.isDead && ctr3.isDead){
+				Debug.Log("Gana el equipo Rojo");
+			}
+			else if(ctr2.isDead && ctr4.isDead){
+				Debug.Log("Gana el equipo Azul");
+			}
+
+
+		}
+
 	}
 
 	// Update is called once per frame
