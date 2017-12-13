@@ -45,7 +45,7 @@ public class GameController : MonoBehaviour {
 
 	public void changeTurn() {
 
-		checkGameStatus();
+		checkGameStatus();//Comprobamos si hay un ganador antes de empezar el turno
 
 		//bool shooting = false;
 		energyBar.SendMessage("setEnergy",100f);
@@ -83,6 +83,9 @@ public class GameController : MonoBehaviour {
 			GetComponent<scriptTimer> ().tiempo = 20f;
 			//GetComponent<scriptTimer> ().tiempo = 20f;
 		}
+
+
+
 	}
 
 	public int GetPlayerTurn(){
@@ -131,7 +134,6 @@ public class GameController : MonoBehaviour {
 			playerController ctr2 = player2.GetComponentInChildren<playerController>();
 			playerController ctr3= player3.GetComponentInChildren<playerController>();
 			playerController ctr4 = player4.GetComponentInChildren<playerController>();
-
 			if(ctr1.isDead && ctr3.isDead){
 				Debug.Log("Gana el equipo Rojo");
 			}
