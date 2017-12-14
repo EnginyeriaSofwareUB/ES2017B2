@@ -29,6 +29,7 @@ public class ProjectVars : MonoBehaviour{
 	public List<string> players = new List<string>();
 
 	public static ProjectVars Instance { get { return _instance; } }
+	public int ganador;
 
 	private void Awake()
 	{
