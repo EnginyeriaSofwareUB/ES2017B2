@@ -19,6 +19,7 @@ public class prevArmaP1 : MonoBehaviour {
 				personaje4.SetActive (false);
 				personaje5.SetActive (true);
 				ProjectVars.Instance.weaponsPlayers [transform.tag] = "pistola_2";
+				ProjectVars.Instance.daño [transform.tag] = 60;
 			} else if (personaje2.activeSelf) {
 				personaje1.SetActive (true);
 				personaje2.SetActive (false);
@@ -26,6 +27,7 @@ public class prevArmaP1 : MonoBehaviour {
 				personaje4.SetActive (false);
 				personaje5.SetActive (false);
 				ProjectVars.Instance.weaponsPlayers[transform.tag] = "arma_4";
+				ProjectVars.Instance.daño [transform.tag] = 80;
 			} else if (personaje3.activeSelf) {
 				personaje1.SetActive (false);
 				personaje2.SetActive (true);
@@ -33,6 +35,7 @@ public class prevArmaP1 : MonoBehaviour {
 				personaje4.SetActive (false);
 				personaje5.SetActive (false);
 				ProjectVars.Instance.weaponsPlayers[transform.tag] = "pistola";
+				ProjectVars.Instance.daño [transform.tag] = 40;
 			} else if (personaje4.activeSelf) {
 				personaje1.SetActive (false);
 				personaje2.SetActive (false);
@@ -40,6 +43,7 @@ public class prevArmaP1 : MonoBehaviour {
 				personaje4.SetActive (false);
 				personaje5.SetActive (false);
 				ProjectVars.Instance.weaponsPlayers[transform.tag] = "arco";
+				ProjectVars.Instance.daño [transform.tag] = 10;
 			}  else if (personaje5.activeSelf) {
 				personaje1.SetActive (false);
 				personaje2.SetActive (false);
@@ -47,6 +51,7 @@ public class prevArmaP1 : MonoBehaviour {
 				personaje4.SetActive (true);
 				personaje5.SetActive (false);
 				ProjectVars.Instance.weaponsPlayers[transform.tag] = "arma_5";
+				ProjectVars.Instance.daño [transform.tag] = 20;
 			}
 		}
 	}

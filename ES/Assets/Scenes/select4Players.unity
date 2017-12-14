@@ -302,6 +302,7 @@ GameObject:
   - component: {fileID: 84199370}
   - component: {fileID: 84199373}
   - component: {fileID: 84199372}
+  - component: {fileID: 84199371}
   m_Layer: 0
   m_Name: prevP2
   m_TagString: Jugador1
@@ -322,6 +323,21 @@ Transform:
   m_Father: {fileID: 2124097856}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: -5.334, y: 0, z: 0}
+--- !u!114 &84199371
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 84199369}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7595df7801821954a89639b7e3f5a58b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  personaje1: {fileID: 1142987757}
+  personaje2: {fileID: 433918234}
+  personaje3: {fileID: 675771497}
+  personaje4: {fileID: 286561272}
 --- !u!61 &84199372
 BoxCollider2D:
   m_ObjectHideFlags: 0

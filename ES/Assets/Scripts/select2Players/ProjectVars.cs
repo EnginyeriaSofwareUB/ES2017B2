@@ -19,6 +19,13 @@ public class ProjectVars : MonoBehaviour{
 		{"Jugador3","arma_4"}
 	};
 
+	public Dictionary<string, int> daño = new Dictionary<string, int>(){
+		{"Jugador0",40},
+		{"Jugador1",40},
+		{"Jugador2",40},
+		{"Jugador3",40}
+	};
+
 	public List<string> players = new List<string>();
 
 	public static ProjectVars Instance { get { return _instance; } }
