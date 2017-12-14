@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GameController : MonoBehaviour {
 
@@ -46,7 +47,9 @@ public class GameController : MonoBehaviour {
 	public void changeTurn() {
 
 		checkGameStatus();//Comprobamos si hay un ganador antes de empezar el turno
-
+		if (ProjectVars.Instance.ganador == 1 || ProjectVars.Instance.ganador == 2) {
+			SceneManager.LoadScene (4);
+		}
 		//bool shooting = false;
 		energyBar.SendMessage("setEnergy",100f);
 		GameObject LastTurnPlayer = GameObject.FindGameObjectsWithTag (string.Concat("Jugador", turnoJugador.ToString()))[0];
@@ -115,11 +118,11 @@ public class GameController : MonoBehaviour {
 			playerController ctr1 = player1.GetComponentInChildren<playerController>();
 			playerController ctr2 = player2.GetComponentInChildren<playerController>();
 			if(ctr1.isDead){
-				Debug.Log("Gana el jugador 2 (ROJO)");//
+				ProjectVars.Instance.ganador = 2;//
 			}
 
 			if(ctr2.isDead){
-				Debug.Log("Gana el jugador 1 (AZUL)"); //
+				ProjectVars.Instance.ganador = 1; //
 			}
 
 		}
@@ -135,10 +138,10 @@ public class GameController : MonoBehaviour {
 			playerController ctr3= player3.GetComponentInChildren<playerController>();
 			playerController ctr4 = player4.GetComponentInChildren<playerController>();
 			if(ctr1.isDead && ctr3.isDead){
-				Debug.Log("Gana el equipo Rojo");
+				ProjectVars.Instance.ganador = 2;
 			}
 			else if(ctr2.isDead && ctr4.isDead){
-				Debug.Log("Gana el equipo Azul");
+				ProjectVars.Instance.ganador = 1;
 			}
 
 
