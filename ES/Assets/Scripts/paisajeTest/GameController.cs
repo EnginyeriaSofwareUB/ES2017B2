@@ -44,11 +44,15 @@ public class GameController : MonoBehaviour {
 		player.GetComponent<PlayerModel> ().turno = true;
 	}
 
+	void finishGame () {
+		SceneManager.LoadScene (4);
+	}
+ 
 	public void changeTurn() {
 
 		checkGameStatus();//Comprobamos si hay un ganador antes de empezar el turno
 		if (ProjectVars.Instance.ganador == 1 || ProjectVars.Instance.ganador == 2) {
-			SceneManager.LoadScene (4);
+			Invoke ("finishGame", 3f);
 		}
 		//bool shooting = false;
 		energyBar.SendMessage("setEnergy",100f);
