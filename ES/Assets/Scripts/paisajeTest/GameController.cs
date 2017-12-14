@@ -43,7 +43,7 @@ public class GameController : MonoBehaviour {
 		camScript.player = player;
 		player.GetComponent<PlayerModel> ().turno = true;
 	}
-
+		
 	void finishGame () {
 		SceneManager.LoadScene (4);
 	}

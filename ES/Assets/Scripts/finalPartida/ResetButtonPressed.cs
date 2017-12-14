@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 public class ResetButtonPressed : MonoBehaviour {
 
 	public void ResetButtonClicked() {
+		ProjectVars.Instance.ganador = 0;
 		SceneManager.LoadScene (1);	
 	}
 }
