@@ -331,7 +331,7 @@ MonoBehaviour:
   floor:
     serializedVersion: 2
     m_Bits: 256
-  maxJump: 25
+  maxJump: 42
   isDead: 0
 --- !u!114 &114794617182721856
 MonoBehaviour:

@@ -265,8 +265,8 @@ MonoBehaviour:
   floor:
     serializedVersion: 2
     m_Bits: 256
-  foot: {fileID: 4731626737771022}
-  maxJump: 25
+  maxJump: 42
+  isDead: 0
 --- !u!114 &114393131095317890
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -281,6 +281,7 @@ MonoBehaviour:
   hp: 0
   maxHp: 100
   playerHealthBar: {fileID: 114979517621658780}
+  player: {fileID: 0}
 --- !u!114 &114434451831725934
 MonoBehaviour:
   m_ObjectHideFlags: 1

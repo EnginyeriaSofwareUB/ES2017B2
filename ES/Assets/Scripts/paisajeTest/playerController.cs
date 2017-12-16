@@ -14,7 +14,7 @@ public class playerController : MonoBehaviour {
     public bool touchFloor; //Nos indicará si el player esta tocando el suelo
     private float radio = 0.2f;
     public LayerMask floor;
-    public float maxJump = 20f;//fuerza de salto
+    public float maxJump = 42f;//fuerza de salto
 
     private GameObject energyBar; // variable apra gestionar la barra de energia
     private float playerEnergy;
