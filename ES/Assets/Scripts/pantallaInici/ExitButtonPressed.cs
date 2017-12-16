@@ -5,7 +5,8 @@ using UnityEngine;
 public class ExitButtonPressed : MonoBehaviour {
 
 	public void ExitButtonClicked() {
-		Application.Quit ();
+		Application.Quit();
+		//Application.LoadLevel("1");
 	}
 
 }
