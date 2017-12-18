@@ -16,6 +16,7 @@ TagManager:
   - NumberPlayers
   - powerup_energy
   - powerup_health
+  - limitWater
   layers:
   - Default
   - TransparentFX

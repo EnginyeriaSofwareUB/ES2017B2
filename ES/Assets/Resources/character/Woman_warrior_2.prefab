@@ -88,13 +88,13 @@ GameObject:
   m_Component:
   - component: {fileID: 4049222999495176}
   - component: {fileID: 212426340442827468}
-  - component: {fileID: 61061388208727328}
   - component: {fileID: 95225753787675232}
   - component: {fileID: 50906447327254814}
   - component: {fileID: 114011158946647754}
   - component: {fileID: 114027443567227366}
   - component: {fileID: 114313248038127952}
   - component: {fileID: 114035847913402126}
+  - component: {fileID: 58465357829717372}
   m_Layer: 0
   m_Name: Woman_warrior_2
   m_TagString: Untagged
@@ -167,8 +167,8 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
---- !u!61 &61061388208727328
-BoxCollider2D:
+--- !u!58 &58465357829717372
+CircleCollider2D:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
@@ -179,19 +179,9 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.0636307, y: -0.006878972}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.87285715, y: 1.0714285}
-    newSize: {x: 6.11, y: 7.5}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
+  m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Size: {x: 0.69744277, y: 1.0576706}
-  m_EdgeRadius: 0
+  m_Radius: 0.51
 --- !u!95 &95225753787675232
 Animator:
   serializedVersion: 3

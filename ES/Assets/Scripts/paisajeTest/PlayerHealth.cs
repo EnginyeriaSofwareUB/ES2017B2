@@ -18,8 +18,9 @@ public class PlayerHealth : MonoBehaviour{
 
 	public void TakeDamage(float amount){
 		hp = Mathf.Clamp(hp-amount,0f,maxHp);//Nos aseguramos que nunca pueda ser menor que 0 ni mayor que maxHp
-		if(hp == 0f){//si no le queda vida, muere
+		if(hp < 1f){//si no le queda vida, muere
 			playerHealthBar.transform.localScale = new Vector2(hp/maxHp,1);//modificamos la imagen de la vida (la verde)
+
 			Death();
 		}else{
 			playerHealthBar.transform.localScale = new Vector2(hp/maxHp,1);//modificamos la imagen de la vida (la verde)

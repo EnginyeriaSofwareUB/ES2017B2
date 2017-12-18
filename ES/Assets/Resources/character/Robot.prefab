@@ -107,11 +107,11 @@ GameObject:
   - component: {fileID: 50692154280122392}
   - component: {fileID: 212476767279270654}
   - component: {fileID: 114246895833988778}
-  - component: {fileID: 61361593497332432}
   - component: {fileID: 95462510542335890}
   - component: {fileID: 114357454932738296}
   - component: {fileID: 114969478433976276}
   - component: {fileID: 114602937076861124}
+  - component: {fileID: 58896978334341916}
   m_Layer: 0
   m_Name: Robot
   m_TagString: Jugador0
@@ -167,8 +167,8 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
---- !u!61 &61361593497332432
-BoxCollider2D:
+--- !u!58 &58896978334341916
+CircleCollider2D:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
@@ -179,19 +179,9 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.044420063, y: -0.016657472}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.134, y: 1.112}
-    newSize: {x: 1.134, y: 1.112}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
+  m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Size: {x: 0.53433025, y: 0.92321515}
-  m_EdgeRadius: 0
+  m_Radius: 0.49
 --- !u!95 &95462510542335890
 Animator:
   serializedVersion: 3

@@ -13686,7 +13686,7 @@ GameObject:
   - component: {fileID: 610044319}
   m_Layer: 0
   m_Name: MapLimits
-  m_TagString: Untagged
+  m_TagString: limit
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -32019,6 +32019,11 @@ Prefab:
       propertyPath: m_Size.x
       value: 3.4958687
       objectReference: {fileID: 0}
+    - target: {fileID: 61760970221758828, guid: 1c7e04745b2904ebd8808ebb3f27deb0,
+        type: 2}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1c7e04745b2904ebd8808ebb3f27deb0, type: 2}
   m_IsPrefabParent: 0
@@ -32689,6 +32694,15 @@ Prefab:
       value: 
       objectReference: {fileID: 21300000, guid: 08e0842cc25eb44ce844f88698baa73e,
         type: 3}
+    - target: {fileID: 61760970221758828, guid: 1c7e04745b2904ebd8808ebb3f27deb0,
+        type: 2}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1078309482386694, guid: 1c7e04745b2904ebd8808ebb3f27deb0, type: 2}
+      propertyPath: m_TagString
+      value: limit
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1c7e04745b2904ebd8808ebb3f27deb0, type: 2}
   m_IsPrefabParent: 0
@@ -43560,6 +43574,11 @@ Prefab:
       propertyPath: m_Offset.x
       value: 1.3428566
       objectReference: {fileID: 0}
+    - target: {fileID: 61760970221758828, guid: 1c7e04745b2904ebd8808ebb3f27deb0,
+        type: 2}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1c7e04745b2904ebd8808ebb3f27deb0, type: 2}
   m_IsPrefabParent: 0
@@ -46726,6 +46745,11 @@ Prefab:
     - target: {fileID: 1184428308038978, guid: d80a5568dd1bd492b99093513d78521c, type: 2}
       propertyPath: m_TagString
       value: water
+      objectReference: {fileID: 0}
+    - target: {fileID: 61155266203302544, guid: d80a5568dd1bd492b99093513d78521c,
+        type: 2}
+      propertyPath: m_IsTrigger
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: d80a5568dd1bd492b99093513d78521c, type: 2}

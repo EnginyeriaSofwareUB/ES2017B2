@@ -107,11 +107,11 @@ GameObject:
   - component: {fileID: 114642642960357778}
   - component: {fileID: 212749328326298970}
   - component: {fileID: 95113449124499968}
-  - component: {fileID: 61203256832551520}
   - component: {fileID: 50559495109275520}
   - component: {fileID: 114802684664660112}
   - component: {fileID: 114121342165525934}
   - component: {fileID: 114119704863709114}
+  - component: {fileID: 58723403842091290}
   m_Layer: 0
   m_Name: Knight
   m_TagString: player
@@ -167,8 +167,8 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
---- !u!61 &61203256832551520
-BoxCollider2D:
+--- !u!58 &58723403842091290
+CircleCollider2D:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
@@ -179,19 +179,9 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.07228115, y: 0.0073055625}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.174, y: 1.414}
-    newSize: {x: 1.174, y: 1.414}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
+  m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Size: {x: 0.7205005, y: 1.1082636}
-  m_EdgeRadius: 0
+  m_Radius: 0.6
 --- !u!95 &95113449124499968
 Animator:
   serializedVersion: 3
