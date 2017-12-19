@@ -17,6 +17,7 @@ TagManager:
   - powerup_energy
   - powerup_health
   - limitWater
+  - Canvas2
   layers:
   - Default
   - TransparentFX

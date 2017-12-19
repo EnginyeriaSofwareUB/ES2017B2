@@ -52,7 +52,7 @@ public class GameController : MonoBehaviour {
 
 		checkGameStatus();//Comprobamos si hay un ganador antes de empezar el turno
 		if (ProjectVars.Instance.ganador == 1 || ProjectVars.Instance.ganador == 2) {
-			Invoke ("finishGame", 3f);
+			Invoke ("finishGame", 1f);
 		}
 		//bool shooting = false;
 		energyBar.SendMessage("setEnergy",100f);
