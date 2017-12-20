@@ -41,10 +41,6 @@ public class camaraP1 : MonoBehaviour {
 
 			
 		}
-		//if (player != null)
-
-			
-		
 	}
 		
 }
