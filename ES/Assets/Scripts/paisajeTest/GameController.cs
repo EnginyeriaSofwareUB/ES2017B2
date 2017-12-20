@@ -54,7 +54,6 @@ public class GameController : MonoBehaviour {
 	}
 
 	private void handleChangeTurn() {
-		Destroy(GameObject.FindGameObjectsWithTag ("particle")[0]);
 		checkGameStatus ();//Comprobamos si hay un ganador antes de empezar el turno
 		if (ProjectVars.Instance.ganador == 1 || ProjectVars.Instance.ganador == 2) {
 			Invoke ("finishGame", 1f);
