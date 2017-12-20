@@ -112,6 +112,7 @@ GameObject:
   - component: {fileID: 114121342165525934}
   - component: {fileID: 114119704863709114}
   - component: {fileID: 58723403842091290}
+  - component: {fileID: 58980320673822934}
   m_Layer: 0
   m_Name: Knight
   m_TagString: player
@@ -177,6 +178,21 @@ CircleCollider2D:
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 0.6
+--- !u!58 &58980320673822934
+CircleCollider2D:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1890688160357516}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -361,7 +377,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 62834261b483945f39d52dedd5c6ead7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  projectile: {fileID: 1985433790540248, guid: d243b3a8f8c104d4784596c359ff1495, type: 2}
+  projectile: {fileID: 1800745840106164, guid: d243b3a8f8c104d4784596c359ff1495, type: 2}
   powerBar: {fileID: 1770309165478984, guid: 9f97d9cf7f98c4ee59785d4290bd93a0, type: 2}
   velocity: 0
   offset: {x: 0.4, y: 0.1}

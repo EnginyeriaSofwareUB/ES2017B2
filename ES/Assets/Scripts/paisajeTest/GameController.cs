@@ -49,17 +49,22 @@ public class GameController : MonoBehaviour {
 	}
  
 	public void changeTurn() {
+		Invoke ("handleChangeTurn", 3);
 
-		checkGameStatus();//Comprobamos si hay un ganador antes de empezar el turno
+	}
+
+	private void handleChangeTurn() {
+		Destroy(GameObject.FindGameObjectsWithTag ("particle")[0]);
+		checkGameStatus ();//Comprobamos si hay un ganador antes de empezar el turno
 		if (ProjectVars.Instance.ganador == 1 || ProjectVars.Instance.ganador == 2) {
 			Invoke ("finishGame", 1f);
 		}
 		//bool shooting = false;
-		energyBar.SendMessage("setEnergy",100f);
-		GameObject LastTurnPlayer = GameObject.FindGameObjectsWithTag (string.Concat("Jugador", turnoJugador.ToString()))[0];
+		energyBar.SendMessage ("setEnergy", 100f);
+		GameObject LastTurnPlayer = GameObject.FindGameObjectsWithTag (string.Concat ("Jugador", turnoJugador.ToString ())) [0];
 		LastTurnPlayer.GetComponent<PlayerModel> ().turno = false;
 		turnoJugador += 1;
-		if (turnoJugador > jugadores.Count-1) {
+		if (turnoJugador > jugadores.Count - 1) {
 			turnoJugador = 0;
 			numeroTurno += 1;
 			if (numeroTurno > 4) {
@@ -69,9 +74,7 @@ public class GameController : MonoBehaviour {
 					reduceMap (false);
 				}
 			}
-
 		}
-
 
 		GameObject player = GameObject.FindGameObjectsWithTag (string.Concat("Jugador", turnoJugador.ToString()))[0];
 		//Miramos si el player que le toca jugar esta vivo
@@ -90,8 +93,6 @@ public class GameController : MonoBehaviour {
 			GetComponent<scriptTimer> ().tiempo = 20f;
 			//GetComponent<scriptTimer> ().tiempo = 20f;
 		}
-
-
 
 	}
 
