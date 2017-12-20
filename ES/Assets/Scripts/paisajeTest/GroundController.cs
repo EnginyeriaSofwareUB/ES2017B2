@@ -8,6 +8,7 @@ public class GroundController : MonoBehaviour {
 	public bool touchedFloor = false;
 	private GameObject jugador;
 	private GameController gameControllerScript;
+	public ParticleSystem explosion;
 
 	void OnTriggerEnter2D(Collider2D col) {
 		GameObject gameC = GameObject.FindGameObjectsWithTag ("GameController")[0];
@@ -17,11 +18,11 @@ public class GroundController : MonoBehaviour {
 		if (!touchedFloor && transform.gameObject.layer == LayerMask.NameToLayer("granada")) {
 			if (col.tag == "map" || col.tag.Contains ("Jugador") && col.tag != player.tag) {
 				touchedFloor = true;
-				Destroy (gameObject, 2);
+				Invoke("Explode", 2);
 			}
 		} else if (transform.gameObject.layer != LayerMask.NameToLayer("granada")) {
 			if (col.tag == "map") {
-				Destroy (gameObject);
+				Explode ();
 				Destroy (col.gameObject);
 			} else if (col.tag == "water") {
 				Vector2 dir = new Vector2 (0, -1);
@@ -30,7 +31,7 @@ public class GroundController : MonoBehaviour {
 				transform.GetComponent<Rigidbody2D> ().velocity = dir;
 			} else if (col.tag != player.tag && col.tag.Contains ("Jugador")) {
 				col.gameObject.transform.GetChild (1).GetChild(0).GetComponent<PlayerHealth>().TakeDamage(ProjectVars.Instance.daño[player.tag]);
-				Destroy (gameObject);
+				Explode ();
 			}
 		}
 	}
@@ -39,10 +40,15 @@ public class GroundController : MonoBehaviour {
 		this.player = player;
 	}
 
+	void Explode() {
+		explosion.transform.position = transform.position;
+		explosion.Play();
+		Destroy(gameObject);
 
 
-	void OnDestroy(){
-		
+	}
+	void OnDestroy() {
+		Instantiate (explosion, transform.position, Quaternion.identity);
 		jugador.GetComponent<BulletShooter> ().setShooting(false);
 		gameControllerScript.changeTurn ();
 	}

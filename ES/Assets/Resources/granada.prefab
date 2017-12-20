@@ -23,7 +23,8 @@ GameObject:
   - component: {fileID: 50461102794133108}
   - component: {fileID: 58340838333704662}
   - component: {fileID: 58573804540343470}
-  m_Layer: 0
+  - component: {fileID: 114124257435459764}
+  m_Layer: 9
   m_Name: granada
   m_TagString: bullet
   m_Icon: {fileID: 0}
@@ -93,6 +94,20 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 2
+--- !u!114 &114124257435459764
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1883987481268032}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a54e9cef9b84e4f65baf9926b9f8c71d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  touchedFloor: 0
+  explosion: {fileID: 198275872491935460, guid: 83c97f45e9f6042bebc9acabea13cb61,
+    type: 2}
 --- !u!212 &212575785499616490
 SpriteRenderer:
   m_ObjectHideFlags: 1

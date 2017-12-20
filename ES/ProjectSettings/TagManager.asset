@@ -18,6 +18,7 @@ TagManager:
   - powerup_health
   - limitWater
   - Canvas2
+  - particle
   layers:
   - Default
   - TransparentFX
@@ -28,7 +29,7 @@ TagManager:
   - 
   - 
   - floor
-  - 
+  - granada
   - 
   - 
   - 
