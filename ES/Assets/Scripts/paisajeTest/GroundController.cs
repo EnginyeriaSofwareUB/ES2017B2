@@ -61,9 +61,12 @@ public class GroundController : MonoBehaviour {
 	}
 
 	void OnDestroy() {
-		Destroy(GameObject.FindGameObjectsWithTag ("particle")[0]);
 		jugador.GetComponent<BulletShooter> ().setShooting(false);
 		gameControllerScript.changeTurn ();
+		GameObject[] particles = GameObject.FindGameObjectsWithTag ("particle");
+		foreach (GameObject particle in particles) {
+			Destroy (particle);
+		}
 	}
 
 	void AreaDamageEnemies(float radius, float damage) {

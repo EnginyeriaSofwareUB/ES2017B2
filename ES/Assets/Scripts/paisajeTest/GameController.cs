@@ -49,7 +49,8 @@ public class GameController : MonoBehaviour {
 	}
  
 	public void changeTurn() {
-		Invoke ("handleChangeTurn", 3);
+		handleChangeTurn ();
+		//Invoke ("handleChangeTurn", 3);
 
 	}
 
