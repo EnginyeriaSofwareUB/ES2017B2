@@ -19,7 +19,6 @@ public class MapLimitController : MonoBehaviour {
 		if (col.tag == "bullet") {
 
 			Destroy (col.gameObject);
-			//SceneManager.LoadScene (4);
 		}
 	}
 }

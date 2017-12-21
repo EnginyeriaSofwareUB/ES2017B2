@@ -19,6 +19,9 @@ TagManager:
   - limitWater
   - Canvas2
   - particle
+  - Fire
+  - limitLeft
+  - limitRight
   layers:
   - Default
   - TransparentFX

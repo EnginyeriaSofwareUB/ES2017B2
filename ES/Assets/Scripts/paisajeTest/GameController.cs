@@ -14,16 +14,19 @@ public class GameController : MonoBehaviour {
 	private int turnoJugador = 0;
 	private GameObject energyBar; // variable apra gestionar la barra de energia
 	private int numeroTurno = 1;
+	float distancia = 40;
 
 	// Use this for initialization
 	void Awake () {
 		Vector2 position = new Vector2 (-0.953f, 0f);
 		energyBar = GameObject.Find("EnergyBar");//Buscamos la referencia a la barra de energia
+		if (jugadores.Count > 2)
+			distancia = 12;
 		foreach(var namePrefab in jugadores )
 		{
 			GameObject player = (GameObject)Instantiate (Resources.Load("character/"+ namePrefab,
 					typeof(GameObject)),position, Quaternion.identity);
-			position.x += 12;
+			position.x += distancia;
 			player.tag = string.Concat("Jugador", numeroJugador.ToString());
 			player.transform.GetChild(0).name = string.Concat("Jugador", (numeroJugador+1).ToString()) ;
 			if (numeroJugador == 0 || numeroJugador == 2) {
@@ -101,9 +104,8 @@ public class GameController : MonoBehaviour {
 	}
 
 	private void reduceMap(bool firstTime) {
-		GameObject[] mapLimits = GameObject.FindGameObjectsWithTag ("limit");
-		GameObject leftLimit = mapLimits [2];
-		GameObject rightLimit = mapLimits [1];
+		GameObject leftLimit = GameObject.FindGameObjectWithTag ("limitLeft");
+		GameObject rightLimit = GameObject.FindGameObjectWithTag ("limitRight");
 
 		if (firstTime) {
 			leftLimit.transform.position = new Vector3(-15.5f,leftLimit.transform.position.y, leftLimit.transform.position.z );

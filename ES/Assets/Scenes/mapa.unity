@@ -32093,6 +32093,10 @@ Prefab:
       propertyPath: m_IsTrigger
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1078309482386694, guid: 1c7e04745b2904ebd8808ebb3f27deb0, type: 2}
+      propertyPath: m_TagString
+      value: limitRight
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1c7e04745b2904ebd8808ebb3f27deb0, type: 2}
   m_IsPrefabParent: 0
@@ -43677,6 +43681,14 @@ Prefab:
         type: 2}
       propertyPath: m_IsTrigger
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1078309482386694, guid: 1c7e04745b2904ebd8808ebb3f27deb0, type: 2}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1078309482386694, guid: 1c7e04745b2904ebd8808ebb3f27deb0, type: 2}
+      propertyPath: m_TagString
+      value: limitLeft
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1c7e04745b2904ebd8808ebb3f27deb0, type: 2}
