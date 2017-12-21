@@ -22,6 +22,8 @@ TagManager:
   - Fire
   - limitLeft
   - limitRight
+  - PanelNombre
+  - TextoNombre
   layers:
   - Default
   - TransparentFX

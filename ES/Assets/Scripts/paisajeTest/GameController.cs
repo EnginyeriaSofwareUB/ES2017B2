@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
 public class GameController : MonoBehaviour {
@@ -29,12 +30,26 @@ public class GameController : MonoBehaviour {
 			position.x += distancia;
 			player.tag = string.Concat("Jugador", numeroJugador.ToString());
 			player.transform.GetChild(0).name = string.Concat("Jugador", (numeroJugador+1).ToString()) ;
-			if (numeroJugador == 0 || numeroJugador == 2) {
-				IconManager.SetIcon (player.transform.GetChild (0).gameObject, IconManager.LabelIcon.Blue);
-			} else {
-				IconManager.SetIcon (player.transform.GetChild (0).gameObject, IconManager.LabelIcon.Red);
-			}
 			numeroJugador += 1;
+		}
+		GameObject[] panels = GameObject.FindGameObjectsWithTag ("PanelNombre");
+		foreach (var panel in panels) {
+			string playerName = panel.transform.parent.transform.parent.tag;
+			Image img = panel.GetComponent<Image> ();
+			if (playerName == "Jugador0" || playerName == "Jugador2") {
+				img.color = Color.blue;
+			} else {
+				img.color = Color.red;
+			}
+
+		}
+
+		GameObject[] textos = GameObject.FindGameObjectsWithTag ("TextoNombre");
+		foreach (var texto in textos) {
+			string playerName = texto.transform.parent.transform.parent.transform.parent.tag;
+			int numberPlayer =  int.Parse(playerName.Substring(playerName.Length - 1))+1;
+			texto.GetComponent<Text> ().text = "Jugador" + numberPlayer;
+
 		}
 		initFirstTurn ();
 	}
